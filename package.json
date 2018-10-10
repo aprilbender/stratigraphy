@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compress": "npx svgo 'Paleogeography Maps.svg' -o 'Paleogeography Maps - compressed.svg'"
+    "compress": "npx svgo 'Paleogeography_Maps.svg' -o 'Paleogeography_Maps_Compressed.svg'"
   },
   "repository": {
     "type": "git",
