@@ -1,0 +1,23 @@
+{
+  "name": "stratigraphy-svg-exports",
+  "version": "0.0.1",
+  "description": "SVG assets that you won't be interested in",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compress": "npx svgo 'Paleogeography Maps.svg' -o 'Paleogeography Maps - compressed.svg'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aprilbender/stratigraphy.git"
+  },
+  "author": "April Johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aprilbender/stratigraphy/issues"
+  },
+  "homepage": "https://github.com/aprilbender/stratigraphy#readme",
+  "dependencies": {
+    "svgo": "^1.1.1"
+  }
+}
