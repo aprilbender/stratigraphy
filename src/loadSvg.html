@@ -1,0 +1,24 @@
+<!--
+    This is used to load an SVG from somewhere (like github) and inject 
+    its dom directly into our page.
+
+    Just change the value of 'svgUrl' to whatever you need, and you're good.
+
+    If it doesn't work, there's a commented-out line with 'replaceWith' that might work.
+-->
+
+<div id="ajaxContent">
+    <p>Loading Image...</p>
+</div>
+<script>
+    var Webflow = Webflow || [];
+    Webflow.push(function () {
+        const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Key%20Map_Structural%20Sections%20.svg';
+        $.get(svgUrl, function (data) {
+            $('#ajaxContent').replaceWith(data);
+
+            // if the above fails, comment it out and try this instead:
+            // $('#ajaxContent').replaceWith(new XMLSerializer().serializeToString(data));
+        });
+    });
+</script>

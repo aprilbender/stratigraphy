@@ -1,0 +1,20 @@
+<!-- 
+    This is used to find an invisible text block that contains a secret value, and then 
+    turn around and set that value to each section as it's ID. 
+
+    Then, an SVG that is embedded in the page can link to those spots as a named anchor. 
+-->
+
+<script>
+    var Webflow = Webflow || [];
+    Webflow.push(function () {
+        const sectionIds = [];
+        $('.strat-section-id').each((index, invisibleThing) => {
+            let sectionId = $(invisibleThing).text();
+            sectionIds.push(sectionId);
+        });
+        $('.section-controls').each((index, section) => {
+            $(section).attr('id', sectionIds[index]);
+        });
+    });
+</script>
