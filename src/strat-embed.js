@@ -58,3 +58,30 @@ let whack = (e, ident, over) => {
         }
     }
 }
+
+// the following version of whack puts the rollover on the left or the right side, whichever the hover 
+// pip isn't on. It is centered vertically, but you're guaranteed to not have the pip be in the way.
+let leftOrRightSideWhack = (e, ident, over) => {
+    var rect = e.getBoundingClientRect();
+    $('#hover-img').attr('class', over ? 'show-img' : 'hide-img');
+    if (over) {
+        try {
+            if (!hoverData[ident]) {
+                console.log(`hoverData not found for ${ident}`);
+            }
+            let d = hoverData[ident];
+            let midX = window.innerWidth / 2;
+            let position = `
+                        width: ${d.width}px;
+                        height: ${d.height}px;
+                        ${rect.x > midX ? 'right' : 'left'}: 50vw;
+                        background: url(${d.src});
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                `;
+            $('#hover-img').attr('style', position);
+        } catch (err) {
+            console.log(`ignoring error for ${ident}`);
+        }
+    }
+}
