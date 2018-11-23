@@ -1,13 +1,25 @@
+// April: this is the only thing that you have to update on a per-page basis. This and maybe
+// which 'whack' function to use, depending on how you want rollovers to appear.
+const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Paintings_Compressed.svg';
+
 let hoverData = {};
 var Webflow = Webflow || [];
+let origWindowWidth = undefined;
 
 let loadMondoSvg = () => {
-    const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Paleogeography_Maps_Compressed.svg';
-    $.get(svgUrl, function (data) {
-        // this way works with the github gist: (keep it around!)
-        // $('#ajaxContent').replaceWith(new XMLSerializer().serializeToString(data));
-        // this way works with the committed version in the github repo:
-        $('#ajaxContent').replaceWith(data)
+    $.ajax({
+        url: svgUrl,
+        success: function (data) {
+            // If the image is something that should zoom along with the keyboard zoom controls, we
+            // have to fix its size to some fraction of the original screen width.
+            const widthStyle = `width: ${origWindowWidth * 0.9}px`;
+            $('#ajaxContentParent').attr('style', widthStyle);
+            // this way works with the github gist: (keep it around!)
+            // $('#ajaxContent').replaceWith(new XMLSerializer().serializeToString(data));
+            // this way works with the committed version in the github repo:
+            $('#ajaxContent').replaceWith(data);
+        },
+        cache: false,
     });
 }
 
@@ -26,8 +38,28 @@ let loadHoverImages = () => {
 }
 
 let postLoadStuff = () => {
+    origWindowWidth = window.innerWidth;
     loadMondoSvg();
-    loadHoverImages();
+
+    // run loadHoverImages when we are guaranteed to have the data ready
+    console.log('in postLoadStuff, document.readyState:', document.readyState);
+    if (document.readyState === 'complete') {
+        console.log('Document already good to go. Running loadHoverImages immediately');
+        loadHoverImages();
+    } else {
+        console.log('Document not ready yet. Will run loadHoverImages later, when ready state changes to complete.');
+        document.addEventListener(
+            'readystatechange',
+            () => {
+                console.log('ready state changed:', document.readyState);
+                if (document.readyState === 'complete') {
+                    console.log('We can finally run loadHoverImages');
+                    loadHoverImages();
+                }
+            },
+            false
+        );
+    }
 }
 
 Webflow.push(function () {
