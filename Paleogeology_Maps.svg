@@ -10,7 +10,7 @@
 	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#58595B;stroke:#231F20;stroke-width:0.5;stroke-miterlimit:3.86;}
 	.st5{fill:#E09D9E;}
 	.st6{fill:none;stroke:#FEDCBD;stroke-miterlimit:3.86;}
-	.pip{fill:#B368E0;}
+	.pip_x002D_purple{fill:#B368E0;}
 	.st7{fill:#00ADA7;stroke:#000000;stroke-width:0.75;}
 	.st8{fill:#F9ED1A;stroke:#000000;stroke-width:0.75;}
 	.st9{fill:#8A81AF;stroke:#000000;stroke-width:0.75;}
@@ -30229,26 +30229,34 @@
 	</g>
 </g>
 <g id="flags">
-	<path id="map-180" onmouseover="whack(this, 'map-180', true)" onmouseout="whack(this, 'map-180', false)" class="pip" d="
+	
+		<path id="map-180" onmouseover="whack(this, 'map-180', true)" onmouseout="whack(this, 'map-180', false)" class="pip_x002D_purple" d="
 		M38.84,986.76H68v-25.29H38.07c-3.17,0-5.74,2.57-5.74,5.74v13.04C32.33,983.84,35.25,986.76,38.84,986.76z"/>
 	<line class="st637" x1="68" y1="974.3" x2="179" y2="974.3"/>
 	<a>
-		<path id="map-200" onmouseover="whack(this, 'map-200', true)" onmouseout="whack(this, 'map-200', false)" class="pip" d="
+		
+			<path id="map-200" onmouseover="whack(this, 'map-200', true)" onmouseout="whack(this, 'map-200', false)" class="pip_x002D_purple" d="
 			M38.84,1084.25H68v-25.29H38.07c-3.17,0-5.74,2.57-5.74,5.74v13.04C32.33,1081.34,35.25,1084.25,38.84,1084.25z"/>
 	</a>
 	<line class="st637" x1="68" y1="1071.8" x2="179" y2="1071.8"/>
-	<path id="map-105" onmouseover="whack(this, 'map-105', true)" onmouseout="whack(this, 'map-105', false)" class="pip" d="
+	
+		<path id="map-105" onmouseover="whack(this, 'map-105', true)" onmouseout="whack(this, 'map-105', false)" class="pip_x002D_purple" d="
 		M93.84,626.79H123V601.5H93.07c-3.17,0-5.74,2.57-5.74,5.74v13.04C87.33,623.88,90.25,626.79,93.84,626.79z"/>
 	<line class="st637" x1="123" y1="613.67" x2="184.5" y2="613.67"/>
-	<path id="map-170" onmouseover="whack(this, 'map-170', true)" onmouseout="whack(this, 'map-170', false)" class="pip" d="
+	
+		<path id="map-170" onmouseover="whack(this, 'map-170', true)" onmouseout="whack(this, 'map-170', false)" class="pip_x002D_purple" d="
 		M152.84,939.57h29.49v-25.29h-30.26c-3.17,0-5.74,2.57-5.74,5.74v13.04C146.33,936.66,149.25,939.57,152.84,939.57z"/>
-	<path id="map-190" onmouseover="whack(this, 'map-190', true)" onmouseout="whack(this, 'map-190', false)" class="pip" d="
+	
+		<path id="map-190" onmouseover="whack(this, 'map-190', true)" onmouseout="whack(this, 'map-190', false)" class="pip_x002D_purple" d="
 		M152.84,1035.55h29.49v-25.29h-30.26c-3.17,0-5.74,2.57-5.74,5.74v13.04C146.33,1032.64,149.25,1035.55,152.84,1035.55z"/>
-	<path id="map-310" onmouseover="whack(this, 'map-310', true)" onmouseout="whack(this, 'map-310', false)" class="pip" d="
+	
+		<path id="map-310" onmouseover="whack(this, 'map-310', true)" onmouseout="whack(this, 'map-310', false)" class="pip_x002D_purple" d="
 		M152.84,1609.79h29.49v-25.29h-30.26c-3.17,0-5.74,2.57-5.74,5.74v13.04C146.33,1606.88,149.25,1609.79,152.84,1609.79z"/>
-	<path id="map-250" onmouseover="whack(this, 'map-250', true)" onmouseout="whack(this, 'map-250', false)" class="pip" d="
+	
+		<path id="map-250" onmouseover="whack(this, 'map-250', true)" onmouseout="whack(this, 'map-250', false)" class="pip_x002D_purple" d="
 		M152.48,1323.79h29.17v-25.29h-29.93c-3.17,0-5.74,2.57-5.74,5.74v13.04C145.98,1320.88,148.89,1323.79,152.48,1323.79z"/>
-	<path id="map-230" onmouseover="whack(this, 'map-230', true)" onmouseout="whack(this, 'map-230', false)" class="pip" d="
+	
+		<path id="map-230" onmouseover="whack(this, 'map-230', true)" onmouseout="whack(this, 'map-230', false)" class="pip_x002D_purple" d="
 		M152.48,1229.99h29.17v-25.29h-29.93c-3.17,0-5.74,2.57-5.74,5.74v13.04C145.98,1227.08,148.89,1229.99,152.48,1229.99z"/>
 </g>
 </svg>
