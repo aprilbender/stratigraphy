@@ -1,6 +1,7 @@
 // April: this is the only thing that you have to update on a per-page basis. This and maybe
 // which 'whack' function to use, depending on how you want rollovers to appear.
-const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Paintings_Compressed.svg';
+// const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Paintings_Compressed.svg';
+const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Paleogeography_Maps_Compressed.svg';
 
 let hoverData = {};
 var Webflow = Webflow || [];
@@ -42,18 +43,13 @@ let postLoadStuff = () => {
     loadMondoSvg();
 
     // run loadHoverImages when we are guaranteed to have the data ready
-    console.log('in postLoadStuff, document.readyState:', document.readyState);
     if (document.readyState === 'complete') {
-        console.log('Document already good to go. Running loadHoverImages immediately');
         loadHoverImages();
     } else {
-        console.log('Document not ready yet. Will run loadHoverImages later, when ready state changes to complete.');
         document.addEventListener(
             'readystatechange',
             () => {
-                console.log('ready state changed:', document.readyState);
                 if (document.readyState === 'complete') {
-                    console.log('We can finally run loadHoverImages');
                     loadHoverImages();
                 }
             },
@@ -66,7 +62,7 @@ Webflow.push(function () {
     $(document).ready(() => postLoadStuff());
 });
 
-let whack = (e, ident, over) => {
+let whackNearby = (e, ident, over) => {
     var rect = e.getBoundingClientRect();
     $('#hover-img').attr('class', over ? 'show-img' : 'hide-img');
     if (over) {
@@ -76,14 +72,14 @@ let whack = (e, ident, over) => {
             }
             let d = hoverData[ident];
             let position = `
-                    left: ${rect.right + 100}px; 
-                    top: ${rect.top + 50}px;
-                    background: url(${d.src});
-                    background-size: contain;
-                    background-repeat: no-repeat;
-                    width: ${d.width}px;
-                    height: ${d.height}px;
-                `;
+                left: ${rect.right + 100}px; 
+                top: ${rect.top + 50}px;
+                background: url(${d.src});
+                background-size: contain;
+                background-repeat: no-repeat;
+                width: ${d.width}px;
+                height: ${d.height}px;
+            `;
             $('#hover-img').attr('style', position);
         } catch (err) {
             console.log(`ignoring error for ${ident}`);
@@ -93,7 +89,7 @@ let whack = (e, ident, over) => {
 
 // the following version of whack puts the rollover on the left or the right side, whichever the hover 
 // pip isn't on. It is centered vertically, but you're guaranteed to not have the pip be in the way.
-let leftOrRightSideWhack = (e, ident, over) => {
+let whackLeftOrRightSide = (e, ident, over) => {
     var rect = e.getBoundingClientRect();
     $('#hover-img').attr('class', over ? 'show-img' : 'hide-img');
     if (over) {
@@ -104,16 +100,19 @@ let leftOrRightSideWhack = (e, ident, over) => {
             let d = hoverData[ident];
             let midX = window.innerWidth / 2;
             let position = `
-                        width: ${d.width}px;
-                        height: ${d.height}px;
-                        ${rect.x > midX ? 'right' : 'left'}: 50vw;
-                        background: url(${d.src});
-                        background-size: contain;
-                        background-repeat: no-repeat;
-                `;
+                width: ${d.width}px;
+                height: ${d.height}px;
+                ${rect.x > midX ? 'right' : 'left'}: 50vw;
+                background: url(${d.src});
+                background-size: contain;
+                background-repeat: no-repeat;
+            `;
             $('#hover-img').attr('style', position);
         } catch (err) {
             console.log(`ignoring error for ${ident}`);
         }
     }
 }
+
+// const whack = whackNearby;
+const whack = whackLeftOrRightSide;
