@@ -14,7 +14,9 @@ let loadMondoSvg = () => {
         success: function (data) {
             // If the image is something that should zoom along with the keyboard zoom controls, we
             // have to fix its size to some fraction of the original screen width.
-            const widthStyle = `width: ${origWindowWidth * 0.9}px`;
+            const widthStyle = `
+                width: ${origWindowWidth * 0.9}px;
+            `;
             $('#ajaxContentParent').attr('style', widthStyle);
             // this way works with the github gist: (keep it around!)
             // $('#ajaxContent').replaceWith(new XMLSerializer().serializeToString(data));
