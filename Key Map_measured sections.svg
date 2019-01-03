@@ -18653,12 +18653,24 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 
 	<polyline class="st1" points="901.11,685.13 927.21,684.37 926.11,648.63 	"/>
 </g>
 <g id="flags">
-	<circle class="st2" cx="444.67" cy="454" r="11.34"/>
-	<circle class="st2" cx="342" cy="235.67" r="11.34"/>
-	<circle class="st2" cx="338.8" cy="391.86" r="11.34"/>
-	<circle class="st2" cx="189.46" cy="625.2" r="11.34"/>
-	<circle class="st2" cx="570.13" cy="513.2" r="11.34"/>
-	<circle class="st2" cx="99.46" cy="135.86" r="11.34"/>
+	<a xlink:href="#d" >
+		<circle class="st2" cx="444.67" cy="454" r="11.34"/>
+	</a>
+	<a xlink:href="#b" >
+		<circle class="st2" cx="342" cy="235.67" r="11.34"/>
+	</a>
+	<a xlink:href="#c" >
+		<circle class="st2" cx="338.8" cy="391.86" r="11.34"/>
+	</a>
+	<a xlink:href="#e" >
+		<circle class="st2" cx="189.46" cy="625.2" r="11.34"/>
+	</a>
+	<a xlink:href="#f" >
+		<circle class="st2" cx="570.13" cy="513.2" r="11.34"/>
+	</a>
+	<a xlink:href="#a" >
+		<circle class="st2" cx="99.46" cy="135.86" r="11.34"/>
+	</a>
 	<g>
 	</g>
 	<g>
