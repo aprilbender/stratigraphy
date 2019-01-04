@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)-->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="enable-background:new 0 0 970 728" version="1.1" viewBox="0 0 970 728" xml:space="preserve">
-    <style type="text/css">
-        .flag_style{opacity:0.7;fill:#FFFFFF;} .st0{display:none;} .st1{display:inline;fill:none;stroke:#ED1C24;stroke-width:2;stroke-miterlimit:10;} .st2{fill:none;stroke:#EC2024;stroke-width:2;stroke-miterlimit:10;} .st3{fill:none;stroke:#ED1C24;stroke-width:2;stroke-miterlimit:10;}
-    </style>
-    <g id="base_image">
-        <image width="1078" height="748" style="overflow:visible" transform="matrix(1 0 0 1 -74.375 0.75)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABDYAAALsCAYAAAAYpjc/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 970 728" style="enable-background:new 0 0 970 728;" xml:space="preserve">
+<style type="text/css">
+	.flag_style{opacity:0.7;fill:#FFFFFF;}
+	.st0{display:none;}
+	.st1{display:inline;fill:none;stroke:#ED1C24;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#EC2024;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#ED1C24;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g id="base_image">
+	
+		<image style="overflow:visible;" width="1078" height="748" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABDYAAALsCAYAAAAYpjc/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
 bWFnZVJlYWR5ccllPAAQNTNJREFUeNrsvQm4JUdxJhqZVXW2u9++vS9qqdXa9wWJRUhiGWDMImEw
 jAFLxmPMPDyD/cY23kHzecyMZwzo2X72x9hGwgYzY/shzGIE2BJgtICEdrSjbkmt3m/f7Wy15cuI
 jKyqc+7VijC+Vvz6jvqec+rUkpWVGfFnxB8BCAQCgUAgEAgEAoFAIBCsUgTSBAKBQCAQCAQCgUAg
@@ -18641,32 +18647,39 @@ oGuBsAEAAAAAAAAAAICuBcIGAAAAAAAAAAAAuhYIGwAAAAAAAAAAAOhaIGwAAAAAAAAAAACga4Gw
 AQAAAAAAAAAAgK4FwgYAAAAAAAAAAAC6FggbAAAAAAAAAAAA6FogbAAAAAAAAAAAAKBrgbABAAAA
 AAAAAACArgXCBgAAAAAAAAAAALoWCBsAAAAAAAAAAADoWiBsAAAAAAAAAAAAoGuBsAEAAAAAAAAA
 AICuBcIGAAAAAAAAAAAAuhYIGwAAAAAAAAAAAOhaIGwAAAAAAAAAAACga4GwAQAAAAAAAAAAgK4F
-wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg=="/>
-    </g>
-    <g id="corners" class="st0">
-        <polyline points="69.11,76.63 71.11,49.13 100.11,49.63 	" class="st1"/>
-        <polyline points="901.11,685.13 927.21,684.37 926.11,648.63 	" class="st1"/>
-    </g>
-    <g id="section_lines">
-        <polyline points="65.44,168.32 76.59,171.41 79.54,179.56 89.35,193.85 99.57,206.04 113.34,202.88 120.1,199.2 
+wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 -74.375 0.75)">
+	</image>
+</g>
+<g id="corners" class="st0">
+	<polyline class="st1" points="69.11,76.63 71.11,49.13 100.11,49.63 	"/>
+	<polyline class="st1" points="901.11,685.13 927.21,684.37 926.11,648.63 	"/>
+</g>
+<g id="section_lines">
+	<polyline class="st2" points="65.44,168.32 76.59,171.41 79.54,179.56 89.35,193.85 99.57,206.04 113.34,202.88 120.1,199.2 
 		130.02,195.59 151.94,189.13 159.92,192.85 170.48,191.36 198.34,186.11 209.85,202.55 257.01,238.5 301.4,272.63 352.54,262.71 
-		371.85,276.19 390.53,273.16 	" class="st2"/>
-        <polyline points="538.41,54.43 537.57,271.43 590.92,473.08 	" class="st3"/>
-    </g>
-    <g id="flags">
-        <a xlink:href="strat-panel-measured-sections#first">
-            <path d="M596.22,424.38l1.29-0.28c5.48-1.2,10.89,2.27,12.09,7.74v0c1.19,5.41-2.24,10.76-7.65,11.95
-			l-16.9,3.7c-0.22,0.05-0.45-0.09-0.5-0.32l-4.14-18.9c-0.05-0.22,0.09-0.45,0.32-0.5L596.22,424.38" class="flag_style"/>
-        </a>
-        <a xlink:href="#second">
-            <path d="M249.88,210.56l0.83-1.03c3.51-4.37,9.9-5.07,14.27-1.56l0,0c4.32,3.47,5.01,9.78,1.54,14.1
-			l-10.83,13.49c-0.14,0.18-0.41,0.21-0.59,0.06l-15.09-12.11c-0.18-0.14-0.21-0.41-0.06-0.59L249.88,210.56" class="flag_style"/>
-        </a>
-        <g/>
-        <g/>
-        <g/>
-        <g/>
-        <g/>
-        <g/>
-    </g>
+		371.85,276.19 390.53,273.16 	"/>
+	<polyline class="st3" points="538.41,54.43 537.57,271.43 590.92,473.08 	"/>
+</g>
+<g id="flags">
+	<a xlink:href="strat-panel-measured-sections#first" >
+		<path class="flag_style" d="M596.22,424.38l1.29-0.28c5.48-1.2,10.89,2.27,12.09,7.74v0c1.19,5.41-2.24,10.76-7.65,11.95
+			l-16.9,3.7c-0.22,0.05-0.45-0.09-0.5-0.32l-4.14-18.9c-0.05-0.22,0.09-0.45,0.32-0.5L596.22,424.38"/>
+	</a>
+	<a xlink:href="#second" >
+		<path class="flag_style" d="M249.88,210.56l0.83-1.03c3.51-4.37,9.9-5.07,14.27-1.56l0,0c4.32,3.47,5.01,9.78,1.54,14.1
+			l-10.83,13.49c-0.14,0.18-0.41,0.21-0.59,0.06l-15.09-12.11c-0.18-0.14-0.21-0.41-0.06-0.59L249.88,210.56"/>
+	</a>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+</g>
 </svg>
