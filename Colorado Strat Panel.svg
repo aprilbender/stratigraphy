@@ -5,7 +5,7 @@
 <style type="text/css">
 	.st0{fill:none;stroke:#010101;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#010101;stroke-width:1.5;stroke-miterlimit:10;}
-	.sectionlink{opacity:0.7;fill:#DA1C5C;}
+	.sectionlink{opacity:0.7;fill:#FFFFFF;}
 	.st2{fill:#FCB652;}
 	.st3{fill:#FBAF3D;stroke:#020202;}
 	.st4{fill:#FBAF3D;}
@@ -7066,7 +7066,7 @@
 </g>
 <g id="flags">
 	<a xlink:href="#a" >
-		<rect x="1303.49" y="602.02" class="sectionlink" width="33" height="133.82"/>
+		<rect x="1303.05" y="601.79" class="sectionlink" width="33" height="133.82"/>
 	</a>
 	<a xlink:href="#b" >
 		<rect x="1491.66" y="561.15" class="sectionlink" width="33" height="134.94"/>
