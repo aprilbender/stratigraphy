@@ -10,6 +10,7 @@
 	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#58595B;stroke:#231F20;stroke-width:0.5;stroke-miterlimit:3.86;}
 	.st5{fill:#E09D9E;}
 	.st6{fill:none;stroke:#FEDCBD;stroke-miterlimit:3.86;}
+	.hoverthing{fill:#666666;}
 	.st7{fill:#00ADA7;stroke:#000000;stroke-width:0.75;}
 	.st8{fill:#F9ED1A;stroke:#000000;stroke-width:0.75;}
 	.st9{fill:#8A81AF;stroke:#000000;stroke-width:0.75;}
@@ -30241,11 +30242,11 @@
 	</g>
 </g>
 <g id="coal">
-	<circle class="st637" cx="849.79" cy="460.05" r="45"/>
+	<circle id="coal-123" class="hoverthing" cx="849.79" cy="460.05" r="45"/>
 	<circle class="st637" cx="680.36" cy="439.24" r="35"/>
 	<circle class="st638" cx="487.43" cy="507.63" r="22.5"/>
 	<circle class="st638" cx="531.03" cy="583.92" r="22.5"/>
-	<circle class="st637" cx="2088.32" cy="443.21" r="25"/>
+	<circle class="hoverthing" cx="2088.32" cy="443.21" r="25"/>
 	<circle class="st637" cx="1668.11" cy="454.88" r="15"/>
 	<circle class="st637" cx="486.16" cy="506.62" r="10"/>
 	<circle class="st637" cx="532.34" cy="583.88" r="8.5"/>
