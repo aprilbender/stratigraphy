@@ -9,7 +9,8 @@
     "compress:paleogeology": "npx svgo 'Paleogeology_Maps.svg' -o 'Paleogeology_Maps_Compressed.svg'",
     "compress:paintings": "npx svgo 'Paintings.svg' -o 'Paintings_Compressed.svg'",
     "compress:fossils": "npx svgo 'Fossils.svg' -o 'Fossils_Compressed.svg'",
-    "compress:strata": "npx svgo 'Strata.svg' -o 'Strata_Compressed.svg'"
+    "compress:strata": "npx svgo 'Strata.svg' -o 'Strata_Compressed.svg'",
+    "compress:coal": "npx svgo 'Coal.svg' -o 'Coal_Compressed.svg'"
   },
   "repository": {
     "type": "git",
