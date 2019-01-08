@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>HoverThing Test</title>
+
+    <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+
+    <style>
+        .hide-img {
+            display: none;
+        }
+
+        .show-img {
+            display: block;
+            position: absolute;
+
+            /* can omit the border if you want*/
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        // April: this is how you could define tooltip text.
+        let tooltips = {
+            'first': 'this is a dynamically assigned tooltip',
+            'second': 'a second dynamic tooltip. a dynamotip!',
+        }
+        $(document).ready(function () {
+
+            $('.hoverthing').each(function (idx, elm) {
+                $(elm).attr('title', tooltips[elm.id]);
+            });
+            $('.tooltip').tooltipster();
+        });
+    </script>
+</head>
+
+<body>
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        y="0px" viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+        <style type="text/css">
+            .hoverthing {
+                fill: #FFFFFF;
+                stroke: #231F20;
+                stroke-miterlimit: 10;
+            }
+        </style>
+        <rect id="first" x="60.36" y="48.26" class="hoverthing tooltip" width="47.53" height="47.53" />
+        <rect id="second" x="80" y="120" class="hoverthing tooltip" width="47.53" height="47.53" />
+        <rect id="last" x="100" y="220" class="hoverthing tooltip" width="150" height="65" title="Unclear if Illustrator lets you do this." />
+    </svg>
+    <div style="display: block; position: absolute; width: 40%; right: 100px; top: 100px">
+        <p>Here's a slimmed down version of <code>HoverThing.html</code>. This version only does
+            tooltips, so we can isolate what's important in that regard.</p>
+    </div>
+    <div id="hover-img" class="hide-img"></div>
+
+</body>
+
+</html>

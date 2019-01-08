@@ -1,0 +1,113 @@
+<html>
+
+<head>
+    <title>HoverThing Test</title>
+
+    <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script>
+
+    <style>
+        .hide-img {
+            display: none;
+        }
+
+        .show-img {
+            display: block;
+            position: absolute;
+
+            /* can omit the border if you want*/
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        // April: this is how you could define tooltip text.
+        let tooltips = {
+            'first': 'this is a dynamically assigned tooltip',
+            'second': 'a second dynamic tooltip. a dynamotip!',
+        }
+        $(document).ready(function () {
+
+            $('.hoverthing').each(function (idx, elm) {
+                $(elm).attr('title', tooltips[elm.id]);
+
+            });
+            $('.tooltip').tooltipster();
+        });
+
+        // April: this is how you could define hover data.
+        let hoverData = {
+            'first': {
+                img: '0%20ma.jpg', // '0 ma.jpg'... the space character has to be turned into %20
+                width: '200px',
+                height: '160px',
+            },
+            'second': {
+                img: '5%20ma.jpg',
+                width: '500px',
+                height: '400px',
+            }
+        }
+        function what(e, over) {
+            var rect = e.getBoundingClientRect();
+            $('#hover-img').attr('class', over ? 'show-img' : 'hide-img');
+            if (over) {
+                let d = hoverData[e.id];
+                let position = `
+                    left: ${rect.right + 100}px; 
+                    top: ${rect.top + 50}px;
+                    background: url(${d.img});
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    width: ${d.width};
+                    height: ${d.height};
+                `;
+                $('#hover-img').attr('style', position);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+        y="0px" viewBox="0 0 400 400" style="enable-background:new 0 0 400 400;" xml:space="preserve">
+        <style type="text/css">
+            .hoverthing {
+                fill: #FFFFFF;
+                stroke: #231F20;
+                stroke-miterlimit: 10;
+            }
+        </style>
+        <rect id="first" x="60.36" y="48.26" onmouseover="what(this, true)" onmouseout="what(this, false)" class="hoverthing tooltip"
+            width="47.53" height="47.53" />
+        <rect id="second" x="80" y="120" onmouseover="what(this, true)" onmouseout="what(this, false)" class="hoverthing tooltip"
+            width="47.53" height="47.53" />
+    </svg>
+    <div style="display: block; position: absolute; width: 40%; right: 100px; top: 100px">
+        <p>Hey April!</p>
+
+        <p>The two rectangles to the left are SVGs that Illustrator can produce. They both have css classes and IDs,
+            which we can use to do javascript things. I wrote out some notes in a shared Google doc called "SVG Notes".
+        </p>
+
+        <p>It demonstrates that you can:</p>
+
+        <ul>
+            <li>Have a toolip on hover (and you define the text)</li>
+            <li>Have an image shown on hover (and you define width/height/img)</li>
+        </ul>
+
+        <p>Both of these things (tooltip and image) are controlled by data that is defined as Javascript, and is tied
+            together using the ID that you give it from Illustrator. Read the source code of this file to see what I
+            mean, and look for the parts that say 'April'.</p>
+
+        <p>And of course, your things can have tooltips, hover images, or just one, or neither. It is up to you. I just
+            made this work with both because I am just prototyping.</p>
+
+        <p>We will talk about the details later. But for now, here's your proof-of-concept.</p>
+    </div>
+    <div id="hover-img" class="hide-img"></div>
+
+</body>
+
+</html>
