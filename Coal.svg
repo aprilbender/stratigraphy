@@ -641,8 +641,8 @@
 	.st634{fill:#F9ED32;stroke:#000000;}
 	.st635{fill:none;stroke:#000000;stroke-width:2;}
 	.st636{fill:none;stroke:#000000;stroke-width:1.5;}
-	.st637{fill:#666666;}
-	.st638{fill:none;stroke:#666666;stroke-width:3;stroke-miterlimit:10;}
+	.st637{fill:none;stroke:#666666;stroke-width:3;stroke-miterlimit:10;}
+	.st638{fill:#666666;}
 </style>
 <pattern  x="161" y="2799.88" width="142.84" height="145.59" patternUnits="userSpaceOnUse" id="a1be8d45-a0e3-484d-988e-afe951e" viewBox="0 -145.59 142.84 145.59" style="overflow:visible;">
 	<g>
@@ -30242,25 +30242,41 @@
 	</g>
 </g>
 <g id="coal">
-	<circle id="coal-123" class="hoverthing" cx="849.79" cy="460.05" r="45"/>
-	<circle class="st637" cx="680.36" cy="439.24" r="35"/>
-	<circle class="st638" cx="487.43" cy="507.63" r="22.5"/>
-	<circle class="st638" cx="531.03" cy="583.92" r="22.5"/>
-	<circle class="hoverthing" cx="2088.32" cy="443.21" r="25"/>
-	<circle class="st637" cx="1668.11" cy="454.88" r="15"/>
-	<circle class="st637" cx="486.16" cy="506.62" r="10"/>
-	<circle class="st637" cx="532.34" cy="583.88" r="8.5"/>
-	<circle class="st638" cx="1360.35" cy="379.81" r="22.5"/>
-	<circle class="st637" cx="1361.66" cy="379.78" r="8.5"/>
-	<circle class="st638" cx="436.19" cy="441.05" r="22.5"/>
-	<circle class="st637" cx="437.51" cy="441.01" r="7"/>
-	<circle class="st638" cx="1495.38" cy="444.92" r="22.5"/>
-	<circle class="st637" cx="1496.7" cy="444.88" r="7"/>
-	<circle class="st638" cx="718.58" cy="587.69" r="22.5"/>
-	<circle class="st637" cx="719.89" cy="587.65" r="4"/>
-	<circle class="st638" cx="893.99" cy="397.51" r="22.5"/>
-	<circle class="st637" cx="895.31" cy="397.47" r="4"/>
-	<circle class="st638" cx="1756.96" cy="428.17" r="22.5"/>
-	<circle class="st637" cx="1758.28" cy="428.13" r="4"/>
+	<circle id="coal-1" class="hoverthing" cx="849.79" cy="460.05" r="45"/>
+	<circle id="coal-2" class="hoverthing" cx="680.36" cy="439.24" r="35"/>
+	<circle id="coal-3" class="hoverthing" cx="2088.32" cy="443.21" r="25"/>
+	<circle id="coal-4" class="hoverthing" cx="1668.11" cy="454.88" r="15"/>
+	<g id="coal-6">
+		<circle class="st637" cx="487.43" cy="507.63" r="22.5"/>
+		<circle class="st638" cx="486.16" cy="506.62" r="10"/>
+	</g>
+	<g id="coal-7">
+		<circle class="st637" cx="531.03" cy="583.92" r="22.5"/>
+		<circle class="st638" cx="532.34" cy="583.88" r="8.5"/>
+	</g>
+	<g id="coal-10">
+		<circle class="st637" cx="1360.35" cy="379.81" r="22.5"/>
+		<circle class="st638" cx="1361.66" cy="379.78" r="8.5"/>
+	</g>
+	<g id="coal-5">
+		<circle class="st637" cx="436.19" cy="441.05" r="22.5"/>
+		<circle class="st638" cx="437.51" cy="441.01" r="7"/>
+	</g>
+	<g id="coal-11">
+		<circle class="st637" cx="1495.38" cy="444.92" r="22.5"/>
+		<circle class="st638" cx="1496.7" cy="444.88" r="7"/>
+	</g>
+	<g id="coal-8">
+		<circle class="st637" cx="718.58" cy="587.69" r="22.5"/>
+		<circle class="st638" cx="719.89" cy="587.65" r="4"/>
+	</g>
+	<g id="coal-9">
+		<circle class="st637" cx="893.99" cy="397.51" r="22.5"/>
+		<circle class="st638" cx="895.31" cy="397.47" r="4"/>
+	</g>
+	<g id="coal-12">
+		<circle class="st637" cx="1756.96" cy="428.17" r="22.5"/>
+		<circle class="st638" cx="1758.28" cy="428.13" r="4"/>
+	</g>
 </g>
 </svg>
