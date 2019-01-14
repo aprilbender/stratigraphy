@@ -22,6 +22,8 @@ let loadMondoSvg = () => {
             // $('#ajaxContent').replaceWith(new XMLSerializer().serializeToString(data));
             // this way works with the committed version in the github repo:
             $('#ajaxContent').replaceWith(data);
+            console.log('fully loaded svg. now doing tooltip thing.');
+            loadHoverImages();
         },
         cache: false,
     });
@@ -45,20 +47,7 @@ let postLoadStuff = () => {
     origWindowWidth = window.innerWidth;
     loadMondoSvg();
 
-    // run loadHoverImages when we are guaranteed to have the data ready
-    if (document.readyState === 'complete') {
-        loadHoverImages();
-    } else {
-        document.addEventListener(
-            'readystatechange',
-            () => {
-                if (document.readyState === 'complete') {
-                    loadHoverImages();
-                }
-            },
-            false
-        );
-    }
+
 }
 
 Webflow.push(function () {

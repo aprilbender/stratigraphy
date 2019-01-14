@@ -2,26 +2,6 @@
 
 <head>
     <title>HoverThing Test</title>
-
-    <link rel="stylesheet" type="text/css" href="tooltipster/dist/css/tooltipster.bundle.min.css" />
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
-    <!-- <script type="text/javascript" src="tooltipster/dist/js/tooltipster.bundle.min.js"></script> -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/tooltipster@4.1.2/dist/js/tooltipster.bundle.min.js"></script>
-
-    <script>
-        // April: this is how you could define tooltip text.
-        let tooltips = {
-            'first': 'this is a dynamically assigned tooltip',
-            'second': 'a second dynamic tooltip. a dynamotip!',
-        }
-        $(document).ready(function () {
-
-            $('.hoverthing').each(function (idx, elm) {
-                $(elm).attr('title', tooltips[elm.id]);
-            });
-            $('.tooltip').tooltipster();
-        });
-    </script>
 </head>
 
 <body>
@@ -34,16 +14,32 @@
                 stroke-miterlimit: 10;
             }
         </style>
-        <rect id="first" x="60.36" y="48.26" class="hoverthing tooltip" width="47.53" height="47.53" />
-        <rect id="second" x="80" y="120" class="hoverthing tooltip" width="47.53" height="47.53" />
-        <rect id="last" x="100" y="220" class="hoverthing tooltip" width="150" height="65" title="Unclear if Illustrator lets you do this." />
+        <rect id="first" x="60.36" y="48.26" class="hoverthing" width="47.53" height="47.53" />
+        <rect id="second" x="80" y="120" class="hoverthing" width="47.53" height="47.53" />
+        <rect id="last" x="100" y="220" class="hoverthing" width="150" height="65" title="Unclear if Illustrator lets you do this." />
+        <circle id="coal-1" data-tippy="Hey!" class="hoverthing" cx="70" cy="140" r="45"></circle>
     </svg>
     <div style="display: block; position: absolute; width: 40%; right: 100px; top: 100px">
         <p>Here's a slimmed down version of <code>HoverThing.html</code>. This version only does
             tooltips, so we can isolate what's important in that regard.</p>
     </div>
     <div id="hover-img" class="hide-img"></div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@3/dist/tippy.all.min.js"></script>
+    <script>
+        // April: this is how you could define tooltip text.
+        let tooltips = {
+            'first': 'this is a dynamically assigned tooltip',
+            'second': 'a second dynamic tooltip. a dynamotip!',
+            'coal-1': 'this is tooltip for coal-1',
+        }
+        $(document).ready(function () {
 
+            $('.hoverthing').each(function (idx, elm) {
+                $(elm).attr('data-tippy', tooltips[elm.id]);
+            });
+        });
+    </script>
 </body>
 
 </html>

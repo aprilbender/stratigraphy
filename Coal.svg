@@ -30246,8 +30246,8 @@
 	<circle id="coal-2" class="hoverthing" cx="680.36" cy="439.24" r="35"/>
 	<circle id="coal-3" class="hoverthing" cx="2088.32" cy="443.21" r="25"/>
 	<circle id="coal-4" class="hoverthing" cx="1668.11" cy="454.88" r="15"/>
-	<g id="coal-6">
-		<circle class="st637" cx="487.43" cy="507.63" r="22.5"/>
+	<g>
+		<circle id="coal-6" class="st637" cx="487.43" cy="507.63" r="22.5"/>
 		<circle class="st638" cx="486.16" cy="506.62" r="10"/>
 	</g>
 	<g id="coal-7">

@@ -1,0 +1,53 @@
+<div id="ajaxContentParent">
+    <div id="ajaxContent">
+        <p>Loading Image...</p>
+    </div>
+</div>
+<script>
+    const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Coal_Compressed.svg';
+
+    var Webflow = Webflow || [];
+    let origWindowWidth = undefined;
+
+    let loadMondoSvg = () => {
+        $.ajax({
+            url: svgUrl,
+            success: function (data) {
+                const widthStyle = `width: ${origWindowWidth * 0.9}px`;
+                $('#ajaxContentParent').attr('style', widthStyle);
+                $('#ajaxContent').replaceWith(data);
+                console.log('fully loaded svg. attaching tooltips...');
+                loadTooltips();
+            },
+            cache: false,
+        });
+    }
+
+    let loadTooltips = () => {
+        console.log('possibly loading tooltips!');
+        let tooltips = {
+            'coal-1': 'tooltip for coal-1',
+            'coal-2': 'tooltip for coal-2',
+            'coal-3': 'tooltip for coal-3',
+            'coal-4': '<p>testing a <br />two-line tooltip</p>',
+            'coal-5': 'hey april you a hot lady',
+            'coal-6': 'whatever',
+        }
+        $('.hoverthing').each(function (idx, elm) {
+            console.log('attatching tooltip to hoverthing:', idx);
+            $(elm).attr('data-tippy', tooltips[elm.id]);
+        });
+        console.log('attached all tooltips. Now loading the tooltip library.');
+        $.getScript('https://unpkg.com/tippy.js@3/dist/tippy.all.min.js');
+        console.log('loaded tooltip lib. should work now?');
+    }
+
+    let postLoadStuff = () => {
+        origWindowWidth = window.innerWidth;
+        loadMondoSvg();
+    }
+
+    Webflow.push(function () {
+        $(document).ready(() => postLoadStuff());
+    });
+</script>
