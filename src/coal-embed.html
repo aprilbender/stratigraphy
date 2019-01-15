@@ -34,7 +34,11 @@
             'coal-6': '<p>19,256,014 tons <br />Menefee Formation</p>',
         }
         $('.hoverthing').each(function (idx, elm) {
-            console.log('attatching tooltip to hoverthing:', idx);
+            console.log('attatching tooltip to hoverthing:', elm.id);
+            $(elm).attr('data-tippy', tooltips[elm.id]);
+        });
+        $('.hovergroup').each(function (idx, elm) {
+            console.log('attatching tooltip to hovergroup:', elm.id);
             $(elm).attr('data-tippy', tooltips[elm.id]);
         });
         console.log('attached all tooltips. Now loading the tooltip library.');
