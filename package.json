@@ -10,7 +10,8 @@
     "compress:paintings": "npx svgo 'Paintings.svg' -o 'Paintings_Compressed.svg'",
     "compress:fossils": "npx svgo 'Fossils.svg' -o 'Fossils_Compressed.svg'",
     "compress:strata": "npx svgo 'Strata.svg' -o 'Strata_Compressed.svg'",
-    "compress:coal": "npx svgo 'Coal.svg' -o 'Coal_Compressed.svg'"
+    "compress:coal": "npx svgo 'Coal.svg' -o 'Coal_Compressed.svg'",
+    "compress:gas": "npx svgo 'Gas.svg' -o 'Gas_Compressed.svg'"
   },
   "repository": {
     "type": "git",

@@ -16,7 +16,6 @@
                 const widthStyle = `width: ${origWindowWidth * 0.9}px`;
                 $('#ajaxContentParent').attr('style', widthStyle);
                 $('#ajaxContent').replaceWith(data);
-                console.log('fully loaded svg. attaching tooltips...');
                 loadTooltips();
             },
             cache: false,
@@ -24,26 +23,28 @@
     }
 
     let loadTooltips = () => {
-        console.log('possibly loading tooltips!');
         let tooltips = {
-            'coal-1': '<p>559,899,524 tons <br />Lance Formation</p>',
-            'coal-2': '<p>429,875,587   tons <br />Williams Fork Formation</p>',
-            'coal-3': '<p>309,015,641 tons <br />Vermejo Formation</p>',
-            'coal-4': '<p>136,924,749 tons <br />Laramie Formation</p>',
-            'coal-5': '',
-            'coal-6': '<p>19,256,014 tons <br />Menefee Formation</p>',
+            'coal-1': '<span>559,899,524 tons <br />Lance Formation</span>',
+            'coal-2': '<span>429,875,587   tons <br />Williams Fork Formation</span>',
+            'coal-3': '<span>309,015,641 tons <br />Vermejo Formation</span>',
+            'coal-4': '<span>136,924,749 tons <br />Laramie Formation</span>',
+            'coal-5': '<span>1,566,716 tons <br />Fruitland Formation</span>',
+            'coal-6': '<span>19,256,014 tons <br />Menefee Formation</span>',
+            'coal-7': '<span>10,303,349 tons <br />Dakota Formation</span>',
+            'coal-8': '<span>6,697 tons <br />Dakota Formation</span>',
+            'coal-9': '<span>5,829 tons <br />Ft. Union Formation</span>',
+            'coal-10': '<span>10,077,874 tons <br />Coalmont Formation</span>',
+            'coal-11': '<span>724,658 tons <br />Laramie Formation</span>',
+            'coal-12': '<span>39,536 tons <br />Denver Formation</span>',
         }
         $('.hoverthing').each(function (idx, elm) {
-            console.log('attatching tooltip to hoverthing:', elm.id);
+            console.log(`attatching tooltip to hoverthing: ${elm.id} = ${tooltips[elm.id]}`);
             $(elm).attr('data-tippy', tooltips[elm.id]);
         });
         $('.hovergroup').each(function (idx, elm) {
-            console.log('attatching tooltip to hovergroup:', elm.id);
             $(elm).attr('data-tippy', tooltips[elm.id]);
         });
-        console.log('attached all tooltips. Now loading the tooltip library.');
         $.getScript('https://unpkg.com/tippy.js@3/dist/tippy.all.min.js');
-        console.log('loaded tooltip lib. should work now?');
     }
 
     let postLoadStuff = () => {
