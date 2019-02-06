@@ -6,7 +6,6 @@
 	.hoverthing{opacity:0.7;fill:#FFFFFF;}
 	.st0{display:none;}
 	.st1{display:inline;fill:none;stroke:#ED1C24;stroke-width:2;stroke-miterlimit:10;}
-	.st2{opacity:0.7;fill:#FFFFFF;}
 </style>
 <g id="base_image">
 	
@@ -18655,37 +18654,37 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 
 </g>
 <g id="flags">
 	<a xlink:href="#h" >
-		<circle id="ms-12" class="st2" cx="444.67" cy="454" r="11.34"/>
+		<circle id="ms-12" class="hoverthing" cx="444.67" cy="454" r="11.34"/>
 	</a>
 	<a xlink:href="#g" >
-		<circle id="ms-3" class="st2" cx="342" cy="235.67" r="11.34"/>
+		<circle id="ms-3" class="hoverthing" cx="342" cy="235.67" r="11.34"/>
 	</a>
-	<a xlink:href="#g" >
-		<circle id="ms-2" class="st2" cx="252.14" cy="284.23" r="11.34"/>
-	</a>
-	<a xlink:href="#d" >
-		<circle id="ms-7" class="st2" cx="523.72" cy="239.55" r="11.34"/>
+	<a xlink:href="#l" >
+		<circle id="ms-2" class="hoverthing" cx="252.14" cy="284.23" r="11.34"/>
 	</a>
 	<a xlink:href="#d" >
-		<circle id="ms-6" class="st2" cx="536.79" cy="91.44" r="11.34"/>
+		<circle id="ms-7" class="hoverthing" cx="523.72" cy="239.55" r="11.34"/>
+	</a>
+	<a xlink:href="#k" >
+		<circle id="ms-6" class="hoverthing" cx="536.79" cy="91.44" r="11.34"/>
 	</a>
 	<a xlink:href="#e" >
-		<circle id="ms-8" class="st2" cx="535.33" cy="281.96" r="11.34"/>
+		<circle id="ms-8" class="hoverthing" cx="535.33" cy="281.96" r="11.34"/>
 	</a>
 	<a xlink:href="#c" >
-		<circle id="ms-4" class="st2" cx="328.96" cy="428.12" r="11.34"/>
+		<circle id="ms-4" class="hoverthing" cx="328.96" cy="428.12" r="11.34"/>
 	</a>
 	<a xlink:href="#b" >
-		<circle id="ms-5" class="st2" cx="189.46" cy="625.2" r="11.34"/>
+		<circle id="ms-5" class="hoverthing" cx="189.46" cy="625.2" r="11.34"/>
+	</a>
+	<a xlink:href="#i" >
+		<circle id="ms-10" class="hoverthing" cx="570.13" cy="513.2" r="11.34"/>
 	</a>
 	<a xlink:href="#f" >
-		<circle id="ms-10" class="st2" cx="570.13" cy="513.2" r="11.34"/>
+		<circle id="ms-9" class="hoverthing" cx="512.09" cy="462.96" r="11.34"/>
 	</a>
-	<a xlink:href="#f" >
-		<circle id="ms-9" class="st2" cx="512.09" cy="462.96" r="11.34"/>
-	</a>
-	<a xlink:href="#f" >
-		<circle id="ms-11" class="st2" cx="534.22" cy="669.15" r="11.34"/>
+	<a xlink:href="#j" >
+		<circle id="ms-11" class="hoverthing" cx="534.22" cy="669.15" r="11.34"/>
 	</a>
 	<a xlink:href="#a" >
 		<circle id="ms-1" class="hoverthing" cx="99.46" cy="135.86" r="11.34"/>
