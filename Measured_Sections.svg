@@ -3,6 +3,7 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 970 728" style="enable-background:new 0 0 970 728;" xml:space="preserve">
 <style type="text/css">
+	.hoverthing{opacity:0.7;fill:#FFFFFF;}
 	.st0{display:none;}
 	.st1{display:inline;fill:none;stroke:#ED1C24;stroke-width:2;stroke-miterlimit:10;}
 	.st2{opacity:0.7;fill:#FFFFFF;}
@@ -18687,7 +18688,7 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 
 		<circle class="st2" cx="534.22" cy="669.15" r="11.34"/>
 	</a>
 	<a xlink:href="#a" >
-		<circle id="dot-1" class="st2" cx="99.46" cy="135.86" r="11.34"/>
+		<circle id="dot-1" class="hoverthing" cx="99.46" cy="135.86" r="11.34"/>
 	</a>
 	<g>
 	</g>
