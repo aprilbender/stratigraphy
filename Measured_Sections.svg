@@ -18659,14 +18659,20 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 
 	<a xlink:href="#g" >
 		<circle class="st2" cx="342" cy="235.67" r="11.34"/>
 	</a>
+	<a xlink:href="#g" >
+		<circle class="st2" cx="252.14" cy="284.23" r="11.34"/>
+	</a>
 	<a xlink:href="#d" >
 		<circle class="st2" cx="523.72" cy="239.55" r="11.34"/>
+	</a>
+	<a xlink:href="#d" >
+		<circle class="st2" cx="536.79" cy="91.44" r="11.34"/>
 	</a>
 	<a xlink:href="#e" >
 		<circle class="st2" cx="535.33" cy="281.96" r="11.34"/>
 	</a>
 	<a xlink:href="#c" >
-		<circle class="st2" cx="338.8" cy="391.86" r="11.34"/>
+		<circle class="st2" cx="328.96" cy="428.12" r="11.34"/>
 	</a>
 	<a xlink:href="#b" >
 		<circle class="st2" cx="189.46" cy="625.2" r="11.34"/>
@@ -18674,8 +18680,14 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 
 	<a xlink:href="#f" >
 		<circle class="st2" cx="570.13" cy="513.2" r="11.34"/>
 	</a>
+	<a xlink:href="#f" >
+		<circle class="st2" cx="512.09" cy="462.96" r="11.34"/>
+	</a>
+	<a xlink:href="#f" >
+		<circle class="st2" cx="534.22" cy="669.15" r="11.34"/>
+	</a>
 	<a xlink:href="#a" >
-		<circle class="st2" cx="99.46" cy="135.86" r="11.34"/>
+		<circle id="dot-1" class="st2" cx="99.46" cy="135.86" r="11.34"/>
 	</a>
 	<g>
 	</g>
