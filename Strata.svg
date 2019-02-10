@@ -642,7 +642,7 @@
 	.st636{fill:none;stroke:#000000;stroke-width:1.5;}
 	.st637{fill:#B368E0;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 	.st638{fill:none;stroke:#FFFFFF;stroke-width:2.5;stroke-miterlimit:10;}
-	.st639{fill:#B368E0;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
+	.st639{fill:#5B18B2;stroke:#FFFFFF;stroke-width:1.5;stroke-miterlimit:10;}
 </style>
 <pattern  x="161" y="2799.88" width="142.84" height="145.59" patternUnits="userSpaceOnUse" id="a1be8d45-a0e3-484d-988e-afe951e" viewBox="0 -145.59 142.84 145.59" style="overflow:visible;">
 	<g>
@@ -30359,7 +30359,7 @@
 			c0.46,0,0.85-0.16,1.16-0.48C1027.27,1786.48,1027.42,1786.09,1027.42,1785.63z"/>
 	</g>
 	<circle class="st639" cx="1012.95" cy="963.94" r="22.56"/>
-	<circle class="st639" cx="1668.88" cy="597.34" r="22.56"/>
+	<circle id="pano-01" onclick="showPano(this, 'pano-01')" class="st639" cx="1668.88" cy="597.34" r="22.56"/>
 	<g>
 		<polygon class="st0" points="1871.23,453.89 1880.15,453.89 1880.15,453.89 1871.23,453.89 		"/>
 	</g>
