@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Pano Test</title>
+    <style>
+        .hide {
+            display: none;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .pano-container {
+            position: absolute;
+            left: 500px;
+            top: 400px;
+            display: inline-block;
+        }
+
+        .close-btn {
+            display: inline;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 8px;
+            background: #222222;
+            color: white;
+            border-radius: 4px;
+            z-index: 1;
+            cursor: pointer;
+            margin: 4px;
+            font-size: 120%;
+            font-family: Sans-Serif;
+
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+
+    <script>
+        let currentlyVisible = null;
+        const allPano = ['pano-1', 'pano-2'];
+
+        const hideVisible = () => {
+            if (currentlyVisible != null) {
+                $('#' + currentlyVisible).removeClass('show');
+                $('#' + currentlyVisible).addClass('hide');
+            }
+        }
+
+        const changeEmbed = () => {
+            const idx = allPano.indexOf(currentlyVisible);
+            hideVisible();
+            currentlyVisible = allPano[(idx + 1) % allPano.length];
+            $('#' + currentlyVisible).addClass('show');
+        };
+
+    </script>
+</head>
+
+<body>
+    <div id='pano-1' class='hide'>
+        <div class='pano-container'>
+            <div class='close-btn' onclick='hideVisible()'>X</div>
+            <script src="https://static.kuula.io/embed.js" data-kuula="https://kuula.co/share/7lcbZ?fs=1&vr=0&zoom=1&thumbs=1&chromeless=0&logo=0"
+                data-width="500px" data-height="400px"></script>
+        </div>
+    </div>
+    <div id='pano-2' class='hide'>
+        <div class='pano-container'>
+            <div class='close-btn' onclick='hideVisible()'>X</div>
+            <script src="https://static.kuula.io/embed.js" data-kuula="https://kuula.co/share/7lcZj?fs=1&vr=0&zoom=1&thumbs=1&chromeless=0&logo=0"
+                data-width="500px" data-height="400px"></script>
+        </div>
+    </div>
+    <button onclick='changeEmbed()'>Swap!</button>
+
+</body>
+
+</html>
