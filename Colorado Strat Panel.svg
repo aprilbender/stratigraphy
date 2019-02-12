@@ -7066,13 +7066,13 @@
 </g>
 <g id="flags">
 	<a xlink:href="#a" >
-		<rect id="panel-1" x="1303.05" y="601.79" class="sectionlink" width="33" height="133.82"/>
+		<rect id="panel-1" x="1303.05" y="601.79" onclick="navTo('a')" class="sectionlink" width="33" height="133.82"/>
 	</a>
 	<a xlink:href="#b" >
-		<rect id="panel-2" x="1491.66" y="561.15" class="sectionlink" width="33" height="134.94"/>
+		<rect id="panel-2" x="1491.66" y="561.15" onclick="navTo('b')" class="sectionlink" width="33" height="134.94"/>
 	</a>
 	<a xlink:href="#c" >
-		<rect id="panel-3" x="1962.66" y="575.47" class="sectionlink" width="33" height="137.58"/>
+		<rect id="panel-3" x="1962.66" y="575.47" onclick="navTo('c')" class="sectionlink" width="33" height="137.58"/>
 	</a>
 	<g>
 	</g>
