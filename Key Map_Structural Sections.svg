@@ -18671,7 +18671,7 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg=="/>
         <line x1="317.61" x2="567.86" y1="448.63" y2="448.63" class="st2"/>
     </g>
     <g id="flags">
-        <a onclick="$('#c')[0].scrollIntoView()">
+        <a onclick="$('#c')[0].scrollIntoView({behavior: 'smooth'})">
             <path d="M583.5,90.79l1.53-0.01c4.73-0.03,8.59,3.79,8.62,8.52l0,0.73c0.03,4.68-3.74,8.49-8.42,8.51l-15.97,0.09
 			l-0.1-17.77L583.5,90.79" class="st3"/>
         </a>
