@@ -18667,7 +18667,7 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 
 			L596.22,424.38"/>
 	</a>
 	<a xlink:href="#second" >
-		<path id="panel-2" class="flag_style" d="M249.88,210.56l0.83-1.03c3.51-4.37,9.9-5.07,14.27-1.56l0,0
+		<path id="panel-2" onclick="navTo('second')" class="flag_style" d="M249.88,210.56l0.83-1.03c3.51-4.37,9.9-5.07,14.27-1.56l0,0
 			c4.32,3.47,5.01,9.78,1.54,14.1l-10.83,13.49c-0.14,0.18-0.41,0.21-0.59,0.06l-15.09-12.11c-0.18-0.14-0.21-0.41-0.06-0.59
 			L249.88,210.56"/>
 	</a>

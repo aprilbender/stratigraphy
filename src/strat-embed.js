@@ -29,6 +29,10 @@ let loadMondoSvg = () => {
     });
 }
 
+let navTo = id => {
+    $('#' + id)[0].scrollIntoView();
+};
+
 let numHoversSeen = 0;
 let loadHoverImages = () => {
     $('.rollover-image-data').each((index, invisibleThing) => {
@@ -46,8 +50,6 @@ let loadHoverImages = () => {
 let postLoadStuff = () => {
     origWindowWidth = window.innerWidth;
     loadMondoSvg();
-
-
 }
 
 Webflow.push(function () {
