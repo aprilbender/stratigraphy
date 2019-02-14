@@ -18678,7 +18678,7 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 
 	<line class="st2" x1="318.11" y1="429.13" x2="569.86" y2="429.13"/>
 	<line class="st2" x1="317.61" y1="448.63" x2="567.86" y2="448.63"/>
 </g>
-<g id="flags">
+<g id="section-flags">
 	<a xlink:href="#c" >
 		<path onclick="navTo('c')" class="st3" d="M583.5,90.79l1.53-0.01c4.73-0.03,8.59,3.79,8.62,8.52l0,0.73
 			c0.03,4.68-3.74,8.49-8.42,8.51l-15.97,0.09l-0.1-17.77L583.5,90.79"/>
