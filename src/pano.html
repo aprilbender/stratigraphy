@@ -132,15 +132,15 @@
     const currentPano = null;
     const hidePano = () => {
         if (currentPano != null) {
-            $('#' + currentPano).removeClass('pano-show');
-            $('#' + currentPano).addClass('pano-hide');
+            $('#' + currentPano).removeClass('show-img');
+            $('#' + currentPano).addClass('hide-img');
         }
     }
     const showPano = (e, ident) => {
         // user has requested to show pano-N (where N is ident) near element e.
         console.log(`please show pano image ${ident} over the element:`, e);
         hidePano(); // in case something is already showing
-        $('#' + ident).addClass('pano-show');
+        $('#' + ident).addClass('show-img');
     }
 
 </script>

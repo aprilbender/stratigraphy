@@ -110,3 +110,29 @@ let whackLeftOrRightSide = (e, ident, over) => {
 
 // const whack = whackNearby;
 const whack = whackLeftOrRightSide;
+
+// 360-degree panographic pictures use different code.
+let currentPano = null;
+const hidePano = () => {
+    if (currentPano != null) {
+        $(currentPano).removeClass('show-img');
+        $(currentPano).addClass('hide-img');
+    }
+}
+const showPano = (e, ident) => {
+    try {
+        let rect = e.getBoundingClientRect();
+        let midX = window.innerWidth / 2;
+        // user has requested to show pano-N (where N is ident) near element e.
+        console.log(`please show pano image ${ident} over the element:`, e);
+        hidePano(); // in case something is already showing
+        currentPano = '#embed-' + ident;
+        $(currentPano).addClass('show-img');
+        const position = `
+            ${rect.x > midX ? 'right' : 'left'}: 50vw;
+        `;
+        $(currentPano).attr('style', position);
+    } catch (err) {
+        console.log(`ignoring error for ${currentPano}:`, err);
+    }
+}
