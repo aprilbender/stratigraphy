@@ -13554,7 +13554,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="fossil-2" onclick="showPano(this, 'fossil-2)">
+	<g id="fossil-2" onclick="showPano(this, 'fossil-2')">
 		<a>
 			<path id="map-105_1_" class="st27" d="M461.79,668.96h35c2.76,0,5-2.24,5-5v-35c0-2.76-2.24-5-5-5h-35c-2.76,0-5,2.24-5,5v35
 				C456.79,666.72,459.03,668.96,461.79,668.96z"/>

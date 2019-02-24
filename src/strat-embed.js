@@ -2,7 +2,7 @@
 // which 'whack' function to use, depending on how you want rollovers to appear.
 // const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Paintings_Compressed.svg';
 // const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Paleogeography_Maps_Compressed.svg';
-const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Paleogeology_Maps_Compressed.svg';
+const svgUrl = 'https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Strat_Chart_Compressed.svg';
 
 let hoverData = {};
 var Webflow = Webflow || [];
