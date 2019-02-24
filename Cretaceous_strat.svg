@@ -13535,7 +13535,7 @@
 	</g>
 </g>
 <g id="flags">
-	<g id="fossil-1" onmouseover="whack(this, 'fos-1', true)" onmouseout="whack(this, 'fos-1', false)">
+	<g id="fossil-1" onclick="showPano(this, 'fossil-1')">
 		<a>
 			<path id="map-105_2_" class="st27" d="M461.43,606.81h35c2.76,0,5-2.24,5-5v-35c0-2.76-2.24-5-5-5h-35c-2.76,0-5,2.24-5,5v35
 				C456.43,604.57,458.67,606.81,461.43,606.81z"/>
@@ -13554,7 +13554,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="fossil-2" onmouseover="whack(this, 'fos-1', true)" onmouseout="whack(this, 'fos-1', false)">
+	<g id="fossil-2" onclick="showPano(this, 'fossil-2)">
 		<a>
 			<path id="map-105_1_" class="st27" d="M461.79,668.96h35c2.76,0,5-2.24,5-5v-35c0-2.76-2.24-5-5-5h-35c-2.76,0-5,2.24-5,5v35
 				C456.79,666.72,459.03,668.96,461.79,668.96z"/>
@@ -13573,7 +13573,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="fossil-3" onmouseover="whack(this, 'fos-1', true)" onmouseout="whack(this, 'fos-1', false)">
+	<g id="fossil-3" onclick="showPano(this, 'fossil-3')">
 		<a>
 			<path id="map-105_3_" class="st27" d="M461.79,862.49h35c2.76,0,5-2.24,5-5v-35c0-2.76-2.24-5-5-5h-35c-2.76,0-5,2.24-5,5v35
 				C456.79,860.26,459.03,862.49,461.79,862.49z"/>
@@ -13592,7 +13592,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="fossil-4" onmouseover="whack(this, 'fos-1', true)" onmouseout="whack(this, 'fos-1', false)">
+	<g id="fossil-4" onclick="showPano(this, 'fossil-4')">
 		<a>
 			<path id="map-105_4_" class="st27" d="M461.79,936.03h35c2.76,0,5-2.24,5-5v-35c0-2.76-2.24-5-5-5h-35c-2.76,0-5,2.24-5,5v35
 				C456.79,933.79,459.03,936.03,461.79,936.03z"/>
@@ -13611,7 +13611,7 @@
 			</g>
 		</g>
 	</g>
-	<g id="fossil-5" onmouseover="whack(this, 'fos-1', true)" onmouseout="whack(this, 'fos-1', false)">
+	<g id="fossil-5" onclick="showPano(this, 'fossil-5')">
 		<a>
 			<path id="map-105_5_" class="st27" d="M461.79,1124.74h35c2.76,0,5-2.24,5-5v-35c0-2.76-2.24-5-5-5h-35c-2.76,0-5,2.24-5,5v35
 				C456.79,1122.5,459.03,1124.74,461.79,1124.74z"/>
