@@ -117,6 +117,7 @@ const hidePano = () => {
     if (currentPano != null) {
         $(currentPano).removeClass('show-img');
         $(currentPano).addClass('hide-img');
+        currentPano = null;
     }
 }
 const showPano = (e, ident) => {
@@ -125,7 +126,12 @@ const showPano = (e, ident) => {
         let midX = window.innerWidth / 2;
         // user has requested to show pano-N (where N is ident) near element e.
         console.log(`please show pano image ${ident} over the element:`, e);
+        let nextPano = '#embed-' + ident;
+        const bailOut = nextPano === currentPano;
         hidePano(); // in case something is already showing
+        if (bailOut) {
+            return;
+        }
         currentPano = '#embed-' + ident;
         $(currentPano).addClass('show-img');
         const position = `
