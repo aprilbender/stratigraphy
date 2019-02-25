@@ -6,6 +6,7 @@
 	.hoverthing{opacity:0.7;fill:#FFFFFF;}
 	.st0{display:none;}
 	.st1{display:inline;fill:none;stroke:#ED1C24;stroke-width:2;stroke-miterlimit:10;}
+	.st2{display:inline;opacity:0.7;fill:#FFFFFF;}
 </style>
 <g id="base_image">
 	
@@ -18656,9 +18657,6 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 
 	<a xlink:href="#h" >
 		<circle id="ms-12" onclick="navTo('h')" class="hoverthing" cx="444.67" cy="454" r="11.34"/>
 	</a>
-	<a xlink:href="#g" >
-		<circle id="ms-3" onclick="navTo('g')" class="hoverthing" cx="342" cy="235.67" r="11.34"/>
-	</a>
 	<a xlink:href="#l" >
 		<circle id="ms-2" onclick="navTo('l')" class="hoverthing" cx="252.14" cy="284.23" r="11.34"/>
 	</a>
@@ -18677,29 +18675,22 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 
 	<a xlink:href="#b" >
 		<circle id="ms-5" onclick="navTo('b')" class="hoverthing" cx="189.46" cy="625.2" r="11.34"/>
 	</a>
-	<a xlink:href="#i" >
-		<circle id="ms-10" onclick="navTo('i')" class="hoverthing" cx="570.13" cy="513.2" r="11.34"/>
-	</a>
 	<a xlink:href="#f" >
-		<circle id="ms-9" onclick="navTo('f')" class="hoverthing" cx="512.09" cy="462.96" r="11.34"/>
-	</a>
-	<a xlink:href="#j" >
-		<circle id="ms-11" onclick="navTo('j')" class="hoverthing" cx="534.22" cy="669.15" r="11.34"/>
+		<circle id="ms-10" onclick="navTo('i')" class="hoverthing" cx="570.13" cy="513.2" r="11.34"/>
 	</a>
 	<a xlink:href="#a" >
 		<circle id="ms-1" onclick="navTo('a')" class="hoverthing" cx="99.46" cy="135.86" r="11.34"/>
 	</a>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
-	<g>
-	</g>
+</g>
+<g id="frozen" class="st0">
+	<a xlink:href="#i" >
+		<circle id="ms-9" onclick="navTo('f')" class="st2" cx="512.09" cy="462.96" r="11.34"/>
+	</a>
+	<a xlink:href="#g" >
+		<circle id="ms-3" onclick="navTo('g')" class="st2" cx="342" cy="235.67" r="11.34"/>
+	</a>
+	<a xlink:href="#j" >
+		<circle id="ms-11" onclick="navTo('j')" class="st2" cx="534.22" cy="669.15" r="11.34"/>
+	</a>
 </g>
 </svg>
