@@ -18676,7 +18676,7 @@ wgYAAAAAAAAAAAC6lv8vwAD7HDbea/NiWAAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 
 		<circle id="ms-5" onclick="navTo('b')" class="hoverthing" cx="189.46" cy="625.2" r="11.34"/>
 	</a>
 	<a xlink:href="#f" >
-		<circle id="ms-10" onclick="navTo('i')" class="hoverthing" cx="570.13" cy="513.2" r="11.34"/>
+		<circle id="ms-10" onclick="navTo('f')" class="hoverthing" cx="570.13" cy="513.2" r="11.34"/>
 	</a>
 	<a xlink:href="#a" >
 		<circle id="ms-1" onclick="navTo('a')" class="hoverthing" cx="99.46" cy="135.86" r="11.34"/>
