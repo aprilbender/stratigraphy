@@ -8,7 +8,7 @@
 
 const whackHoverImage = prefix => (e, ident, over) => {
   console.log("whackHoverImage:", e, ident, over, prefix);
-  const selector = `#${ident}`;
+  const selector = `#${prefix}${ident}`;
   if ($(selector).length) {
     if (over) {
       showHoverImage(selector, e);
