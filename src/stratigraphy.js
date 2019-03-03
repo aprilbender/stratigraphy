@@ -26,7 +26,14 @@ const whackHoverImage = (prefix, positionBehavior) => (e, ident, over) => {
 makePositionStyle = (e, positionBehavior) => {
   switch (positionBehavior) {
     case POSITION_BEHAVIOR_LEFT_RIGHT:
-      return ``;
+      const rect = e.getBoundingClientRect();
+      const midX = window.innerWidth / 2;
+      const side = rect.x > midX ? "right" : "left";
+      return `
+        top: 50vw;
+        ${side}: 50vw;
+        transform: translate(0, -50%);
+      `;
     default:
     case POSITION_BEHAVIOR_CENTERED:
       return `
