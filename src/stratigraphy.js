@@ -9,6 +9,10 @@
 const POSITION_BEHAVIOR_CENTERED = "centered";
 const POSITION_BEHAVIOR_LEFT_RIGHT = "left/right";
 
+const stratHideHoverImage = id => {
+  console.log("stratHideHoverImage:", id);
+};
+
 const whackHoverImage = (prefix, positionBehavior) => (e, ident, over) => {
   console.log("whackHoverImage:", e, ident, over, prefix, positionBehavior);
   const selector = `#${prefix}${ident}`;

@@ -1,0 +1,42 @@
+<!-- 
+
+    This is an example page that uses the stratigraphy.js and
+    stratigraphy.css global files. This example corresponds to the
+    HTML Embed custom code.
+
+    In order for the SVG to zoom correctly, you MUST have a div with
+    an id of 'measure'. The best place for this is probably the HTML
+    Embed object - set its id in the sprocket panel.
+-->
+
+<div id="ajaxContentParent">
+  <div id="ajaxContent">
+    <p>Loading Image...</p>
+  </div>
+</div>
+
+<script>
+  const svgUrl =
+    "https://raw.githubusercontent.com/aprilbender/stratigraphy/master/Paleogeography_Maps_Compressed.svg";
+
+  var Webflow = Webflow || [];
+
+  Webflow.push(function() {
+    $(document).ready(() => {
+      // use the same id here as above
+      loadLargeSvg("#ajaxContent", svgUrl);
+    });
+  });
+
+  // first argument is the prefix for your hover images. In the
+  // collection, item embed you'll make a div like this:
+  //
+  // <div id='hover-img-CMS-IDENTIFIER' class='strat-hide-img'>
+  //
+  // Be sure your prefix is the same as the item embed.
+  //
+  // second argument is the position. possible values are:
+  // - POSITION_BEHAVIOR_CENTERED
+  // - POSITION_BEHAVIOR_LEFT_RIGHT
+  const whack = whackHoverImage("hover-img-", POSITION_BEHAVIOR_CENTERED);
+</script>
