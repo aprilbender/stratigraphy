@@ -25,10 +25,9 @@ const showHoverImage = (selector, e) => {
   $(selector).addClass("strat-show-img");
   $(selector).addClass("strat-hover-img-position");
   const rect = e.getBoundingClientRect();
-  const midX = window.innerWidth / 2;
   const position = `
-                ${rect.x > midX ? "right" : "left"}: 50vw;
-                top: 50vw;
+                left: ${rect.right + 100}px; 
+                top: ${rect.top + 50}px;
             `;
   $(selector).attr("style", position);
 };
