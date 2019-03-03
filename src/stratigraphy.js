@@ -6,10 +6,12 @@
 // that are independently embedded in various pages so there is far
 // less copypasta.
 
-let whackHoverImage = prefix => (e, ident, over) => {
-  console.log("whackHoverImage invoked with arguments:");
-  console.log("e:", e);
-  console.log("ident:", ident);
-  console.log("over", over);
-  console.log("using prefix:", prefix);
+const whackHoverImage = prefix => (e, ident, over) => {
+  console.log("whackHoverImage:", e, ident, over, prefix);
+  const selector = `#${ident}`;
+  if ($(selector).length) {
+    console.log("I found selector:", selector);
+  } else {
+    console.log("did not find selector:", selector);
+  }
 };
