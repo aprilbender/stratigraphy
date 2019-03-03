@@ -6,34 +6,46 @@
 // that are independently embedded in various pages so there is far
 // less copypasta.
 
-const whackHoverImage = prefix => (e, ident, over) => {
-  console.log("whackHoverImage:", e, ident, over, prefix);
+const POSITION_BEHAVIOR_CENTERED = "centered";
+const POSITION_BEHAVIOR_LEFT_RIGHT = "left/right";
+
+const whackHoverImage = (prefix, positionBehavior) => (e, ident, over) => {
+  console.log("whackHoverImage:", e, ident, over, prefix, positionBehavior);
   const selector = `#${prefix}${ident}`;
   if ($(selector).length) {
     if (over) {
-      showHoverImage(selector, e);
+      showHoverImage(selector, e, positionBehavior);
     } else {
-      hideHoverImage(selector, e);
+      hideHoverImage(selector);
     }
   } else {
     console.log("Could not find selector:", selector);
   }
 };
 
-const showHoverImage = (selector, e) => {
+makePositionStyle = (e, positionBehavior) => {
+  switch (positionBehavior) {
+    case POSITION_BEHAVIOR_LEFT_RIGHT:
+      return ``;
+    default:
+    case POSITION_BEHAVIOR_CENTERED:
+      return `
+        left: 50vw; 
+        top: 50vw;
+        transform: translate(-50%, -50%);
+    `;
+  }
+};
+
+const showHoverImage = (selector, e, positionBehavior) => {
   $(selector).removeClass("strat-hide-img");
   $(selector).addClass("strat-show-img");
   $(selector).addClass("strat-hover-img-position");
-  const rect = e.getBoundingClientRect();
-  const position = `
-                left: 50vw; 
-                top: 50vw;
-                transform: translate(-50%, -50%);
-            `;
+  const position = makePositionStyle(e, positionBehavior);
   $(selector).attr("style", position);
 };
 
-const hideHoverImage = (selector, e) => {
+const hideHoverImage = selector => {
   $(selector).removeClass("strat-show-img");
   $(selector).addClass("strat-hide-img");
 };
