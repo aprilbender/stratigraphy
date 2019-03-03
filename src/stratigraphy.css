@@ -19,7 +19,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .strat-show-img {
+  .strat-hover-img-position {
     width: 90%;
     height: 90%;
   }
