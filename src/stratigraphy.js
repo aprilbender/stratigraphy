@@ -26,9 +26,9 @@ const showHoverImage = (selector, e) => {
   $(selector).addClass("strat-hover-img-position");
   const rect = e.getBoundingClientRect();
   const position = `
-                left: ${rect.right + 100}px; 
+                left: 50vw; 
                 top: 50vw;
-                transform: translate(0, -50%);
+                transform: translate(-50%, -50%);
             `;
   $(selector).attr("style", position);
 };
