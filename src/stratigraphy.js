@@ -56,3 +56,26 @@ const hideHoverImage = selector => {
   $(selector).removeClass("strat-show-img");
   $(selector).addClass("strat-hide-img");
 };
+
+const updateLargeSvgSize = () => {
+  if (!$("#measure").length) {
+    console.log(
+      "Warning: measure div does not exist. Did you forget to add it? Not fixing SVG size."
+    );
+    return;
+  }
+  const measureWidth = $("#measure")[0].getBoundingClientRect().width;
+  const widthStyle = `width: ${measureWidth}px`;
+  $("#ajaxContentParent").attr("style", widthStyle);
+};
+
+const loadLargeSvg = (targetSelector, svgUrl) => {
+  $.ajax({
+    url: svgUrl,
+    success: function(data) {
+      $(targetSelector).replaceWith(data);
+      window.setTimeout(updateLargeSvgSize, 0);
+    },
+    cache: false
+  });
+};
