@@ -27,7 +27,7 @@ const showHoverImage = (selector, e) => {
   const rect = e.getBoundingClientRect();
   const position = `
                 left: ${rect.right + 100}px; 
-                top: ${rect.top}px;
+                top: 50vw;
                 transform: translate(0, -50%);
             `;
   $(selector).attr("style", position);
