@@ -119,3 +119,19 @@ const showPano = (e, ident) => {
     console.log(`ignoring error for ${currentPano}:`, err);
   }
 };
+
+// Tooltips
+
+// the tooltips input should be a dictionary of { id : message}, e.g.
+// tooltips = { 'oil-1' : '<span>848,383 bbl <br />Gallup Formation</span>' }
+//
+// targetSelectors should be an array of selectors that the tooltips will be
+// attached to.
+const loadTooltips = (tooltips, targetSelectors) => {
+  targetSelectors.each((_, selector) => {
+    $(selector).each((_, elm) => {
+      $(elm).attr("data-tippy", tooltips[elm.id]);
+    });
+  });
+  $.getScript("https://unpkg.com/tippy.js@3/dist/tippy.all.min.js");
+};
