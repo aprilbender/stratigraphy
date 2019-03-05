@@ -87,3 +87,35 @@ const loadLargeSvg = (targetSelector, svgUrl, successCallback) => {
 const navTo = id => {
   $("#" + id)[0].scrollIntoView();
 };
+
+// these pano-related functiosn deal with 360-degre panographic embeds. They require
+// the page to have a certain structure (e.g. divs named #embed-123)
+let currentPano = null;
+const hidePano = () => {
+  if (currentPano != null) {
+    $(currentPano).removeClass("pano-show-img");
+    $(currentPano).addClass("pano-hide-img");
+    currentPano = null;
+  }
+};
+const showPano = (e, ident) => {
+  try {
+    let rect = e.getBoundingClientRect();
+    let midX = window.innerWidth / 2;
+    // user has requested to show pano-N (where N is ident) near element e.
+    let nextPano = "#embed-" + ident;
+    const bailOut = nextPano === currentPano;
+    hidePano(); // in case something is already showing
+    if (bailOut) {
+      return;
+    }
+    currentPano = "#embed-" + ident;
+    $(currentPano).addClass("pano-show-img");
+    const position = `
+            ${rect.x > midX ? "right" : "left"}: 50vw;
+        `;
+    $(currentPano).attr("style", position);
+  } catch (err) {
+    console.log(`ignoring error for ${currentPano}:`, err);
+  }
+};
