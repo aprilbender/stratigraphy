@@ -1,4 +1,4 @@
-/* This will be the global CSS that is included on every page - it isn't in production yet */
+/* This is the global CSS that is included on every page */
 
 .strat-hide-img {
   display: none;
@@ -56,15 +56,90 @@
   background: rgba(255, 255, 255, 1);
 }
 
-/* this is the custom style for a currently displayed img */
+svg a {
+  cursor: pointer;
+}
 
+svg #flags g {
+  cursor: pointer;
+}
 /*
+  svg g#flags a path:hover {
+  	opacity: 1.0;
+    fill: white;
+    stroke: #424242;
+    stroke-width: 2px;    
+  }
+  */
 
-left: ${rect.right + 100}px; 
-top: ${rect.top + 50}px;
-background: url(${d.src});
+svg .flag_style:hover {
+  opacity: 1;
+  fill: white;
+  stroke: #424242;
+  stroke-width: 2px;
+}
 
-width: ${d.width}px;
-height: ${d.height}px;
+svg .pip {
+  cursor: pointer;
+}
 
-*/
+svg .hoverthing {
+  cursor: pointer;
+}
+
+/*  svg .hoverthing:hover {
+  	opacity: 1.0;
+    fill: white;
+    stroke: #424242;
+    stroke-width: 2px;
+  } */
+
+svg g#section-flags a path:hover {
+  opacity: 1;
+  stroke: #424242;
+  stroke-width: 2px;
+}
+
+svg g#section-flags a circle:hover {
+  opacity: 1;
+  stroke: #424242;
+  stroke-width: 2px;
+}
+
+svg g#coal .hoverthing:hover {
+  opacity: 1;
+}
+
+svg g#oil .hoverthing:hover {
+  opacity: 1;
+}
+
+svg g#gas .hoverthing:hover {
+  opacity: 1;
+}
+
+svg .pip:hover {
+  fill: #156815;
+}
+
+svg .purple {
+  cursor: pointer;
+}
+
+svg .purple:hover {
+  fill: #7823a9;
+}
+
+svg a .sectionlink:hover {
+  opacity: 1;
+  stroke: #424242;
+  stroke-width: 2px;
+}
+
+.w-container {
+  max-width: 1200px;
+}
+
+.tippy-content {
+  font-size: 12px;
+}

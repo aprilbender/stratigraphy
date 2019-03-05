@@ -36,6 +36,9 @@
     $(document).ready(() => {
       // use the same id here as above
       loadLargeSvg("#ajaxContent", svgUrl);
+      // or:
+      // loadLargeSvg("#ajaxContent", svgUrl,
+      // () => loadTooltips(tooltips, ['.hoverthing', '.hovergroup']));
     });
   });
 
