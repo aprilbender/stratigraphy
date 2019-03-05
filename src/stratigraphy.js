@@ -81,3 +81,9 @@ const loadLargeSvg = (targetSelector, svgUrl, successCallback) => {
     cache: false
   });
 };
+
+// navTo is for internal linking from SVGs. This is to sidestep a limitation in some
+// browsers like Safari.
+const navTo = id => {
+  $("#" + id)[0].scrollIntoView();
+};
