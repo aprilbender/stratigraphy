@@ -7,6 +7,17 @@
     In order for the SVG to zoom correctly, you MUST have a div with
     an id of 'measure'. The best place for this is probably the HTML
     Embed object - set its id in the sprocket panel.
+
+    For hover images, you'll need to include a Collection Item HTML 
+    Embed (which is differnt from the SVG loading HTML Embed!), and
+    (in the SVG Loading embed) set the 'whack' function as appropriate 
+    for the page. See the end of this file for the 'whack' function.
+
+    Example Collection Item HTML Embed:
+
+    <div id='hover-img-CMS-IDENTIFIER' class='strat-hide-img'>
+	    <img src=CMS-IMAGE-REFERENCE />
+    </div>
 -->
 
 <div id="ajaxContentParent">

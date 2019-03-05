@@ -68,12 +68,15 @@ const updateLargeSvgSize = () => {
   $("#ajaxContentParent").attr("style", widthStyle);
 };
 
-const loadLargeSvg = (targetSelector, svgUrl) => {
+const loadLargeSvg = (targetSelector, svgUrl, successCallback) => {
   $.ajax({
     url: svgUrl,
     success: function(data) {
       $(targetSelector).replaceWith(data);
       window.setTimeout(updateLargeSvgSize, 0);
+      if (successCallback) {
+        successCallback();
+      }
     },
     cache: false
   });
