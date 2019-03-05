@@ -133,12 +133,5 @@ const loadTooltips = (tooltips, targetSelectors) => {
       $(elm).attr("data-tippy", tooltips[elm.id]);
     });
   });
-  //   $(".hoverthing").each(function(idx, elm) {
-  //     $(elm).attr("data-tippy", tooltips[elm.id]);
-  //   });
-  //   $(".hovergroup").each(function(idx, elm) {
-  //     $(elm).attr("data-tippy", tooltips[elm.id]);
-  //   });
-  console.log("eh?");
   $.getScript("https://unpkg.com/tippy.js@3/dist/tippy.all.min.js");
 };
