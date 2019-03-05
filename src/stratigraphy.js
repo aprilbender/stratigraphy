@@ -128,12 +128,17 @@ const showPano = (e, ident) => {
 // targetSelectors should be an array of selectors that the tooltips will be
 // attached to.
 const loadTooltips = (tooltips, targetSelectors) => {
-  $(".hoverthing").each(function(idx, elm) {
-    $(elm).attr("data-tippy", tooltips[elm.id]);
+  targetSelectors.forEach(selector => {
+    $(selector).each(function(_, elm) {
+      $(elm).attr("data-tippy", tooltips[elm.id]);
+    });
   });
-  $(".hovergroup").each(function(idx, elm) {
-    $(elm).attr("data-tippy", tooltips[elm.id]);
-  });
+  //   $(".hoverthing").each(function(idx, elm) {
+  //     $(elm).attr("data-tippy", tooltips[elm.id]);
+  //   });
+  //   $(".hovergroup").each(function(idx, elm) {
+  //     $(elm).attr("data-tippy", tooltips[elm.id]);
+  //   });
   console.log("eh?");
   $.getScript("https://unpkg.com/tippy.js@3/dist/tippy.all.min.js");
 };
