@@ -13,6 +13,7 @@
 .strat-hover-img-position {
   border: 1px solid black;
   position: fixed;
+  z-index: 2;
 }
 
 @media screen and (max-width: 600px) {

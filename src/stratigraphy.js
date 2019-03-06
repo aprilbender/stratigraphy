@@ -1,10 +1,6 @@
 // stratigraphy.js
 //
 // This is a global js file that should work in every page.
-//
-// It is not in production yet. I am consolidating the various scripts
-// that are independently embedded in various pages so there is far
-// less copypasta.
 
 const POSITION_BEHAVIOR_CENTERED = "centered";
 const POSITION_BEHAVIOR_LEFT_RIGHT = "left/right";
