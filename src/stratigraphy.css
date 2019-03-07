@@ -13,14 +13,18 @@
 .strat-hover-img-position {
   border: 1px solid black;
   position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  height: auto;
 }
 
+/*
 @media screen and (max-width: 600px) {
   .strat-hover-img-position {
-    width: 90%;
-    height: 90%;
+    
   }
-}
+}*/
 
 .pano-hide-img {
   display: none;

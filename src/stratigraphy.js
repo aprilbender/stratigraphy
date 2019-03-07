@@ -25,17 +25,12 @@ makePositionStyle = (e, positionBehavior) => {
       const midX = window.innerWidth / 2;
       const side = rect.x > midX ? "right" : "left";
       return `
-        top: 50vh;
         ${side}: 50vw;
         transform: translate(0, -50%);
       `;
     default:
     case POSITION_BEHAVIOR_CENTERED:
-      return `
-        left: 50vw; 
-        top: 50vh;
-        transform: translate(-50%, -50%);
-    `;
+      return ``;
   }
 };
 
