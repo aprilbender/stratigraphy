@@ -16,15 +16,27 @@
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
-  height: auto;
+  border: 8px solid red;
 }
 
-/*
 @media screen and (max-width: 600px) {
   .strat-hover-img-position {
-    
+    height: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    width: 100%;
+    border: 8px solid cyan;
   }
-}*/
+}
+
+@media screen and (max-height: 600px) {
+  .strat-hover-img-position {
+    height: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    border: 8px solid purple;
+  }
+}
 
 .pano-hide-img {
   display: none;
