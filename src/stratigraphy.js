@@ -36,8 +36,10 @@ makePositionStyle = (e, positionBehavior) => {
         const rect = e.getBoundingClientRect();
         const midX = window.innerWidth / 2;
         const side = rect.x > midX ? "right" : "left";
+        const otherSide = rect.x >= midX ? "left" : "right";
         return `
           ${side}: 50vw;
+          ${otherSide}: auto;
           transform: translate(0, -50%);
         `;
       }
