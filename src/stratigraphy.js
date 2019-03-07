@@ -6,28 +6,41 @@ const POSITION_BEHAVIOR_CENTERED = "centered";
 const POSITION_BEHAVIOR_LEFT_RIGHT = "left/right";
 
 const whackHoverImage = (prefix, positionBehavior) => (e, ident, over) => {
-  const selector = `#${prefix}${ident}`;
-  if ($(selector).length) {
-    if (over) {
-      showHoverImage(selector, e, positionBehavior);
+  window.setTimeout(() => {
+    const selector = `#${prefix}${ident}`;
+    if ($(selector).length) {
+      if (over) {
+        showHoverImage(selector, e, positionBehavior);
+      } else {
+        hideHoverImage(selector);
+      }
     } else {
-      hideHoverImage(selector);
+      console.log("Could not find selector:", selector);
     }
-  } else {
-    console.log("Could not find selector:", selector);
-  }
+  }, 0);
 };
 
 makePositionStyle = (e, positionBehavior) => {
   switch (positionBehavior) {
     case POSITION_BEHAVIOR_LEFT_RIGHT:
-      const rect = e.getBoundingClientRect();
-      const midX = window.innerWidth / 2;
-      const side = rect.x > midX ? "right" : "left";
-      return `
-        ${side}: 50vw;
-        transform: translate(0, -50%);
-      `;
+      const smallest = Math.min(window.innerWidth, window.innerHeight);
+      if (smallest < 480) {
+        return `
+          width: auto;
+          height: 100%;
+          max-width: 90vw;
+          max-height: 90vh;
+          border: 8px solid blue;
+        `;
+      } else {
+        const rect = e.getBoundingClientRect();
+        const midX = window.innerWidth / 2;
+        const side = rect.x > midX ? "right" : "left";
+        return `
+          ${side}: 50vw;
+          transform: translate(0, -50%);
+        `;
+      }
     default:
     case POSITION_BEHAVIOR_CENTERED:
       return ``;
@@ -36,14 +49,23 @@ makePositionStyle = (e, positionBehavior) => {
 
 const showHoverImage = (selector, e, positionBehavior) => {
   $(selector).removeClass("strat-hide-img");
+  $(selector).removeClass("strat-hover-img-fullscreen");
+  $(selector).removeClass("strat-hover-img-position");
   $(selector).addClass("strat-show-img");
-  $(selector).addClass("strat-hover-img-position");
-  const position = makePositionStyle(e, positionBehavior);
-  $(selector).attr("style", position);
+  const smallest = Math.min(window.innerWidth, window.innerHeight);
+  if (smallest < 480) {
+    $(selector).addClass("strat-hover-img-fullscreen");
+  } else {
+    $(selector).addClass("strat-hover-img-position");
+    const position = makePositionStyle(e, positionBehavior);
+    $(selector).attr("style", position);
+  }
 };
 
 const hideHoverImage = selector => {
   $(selector).removeClass("strat-show-img");
+  $(selector).removeClass("strat-hover-img-fullscreen");
+  $(selector).removeClass("strat-hover-img-position");
   $(selector).addClass("strat-hide-img");
 };
 
