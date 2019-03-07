@@ -10,6 +10,26 @@
   background-repeat: no-repeat;
 }
 
+.strat-hover-img-fullscreen {
+  background: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.strat-hover-img-fullscreen img {
+  zoom: 10;
+  margin: auto;
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+
 .strat-hover-img-position {
   border: 1px solid black;
   position: fixed;
