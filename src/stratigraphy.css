@@ -37,7 +37,6 @@
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
-  border: 8px solid red;
 }
 
 @media screen and (max-width: 480px) {
@@ -46,7 +45,6 @@
     max-width: 90vw;
     max-height: 90vh;
     width: 100%;
-    border: 8px solid cyan;
   }
 }
 
@@ -55,7 +53,6 @@
     height: auto;
     max-width: 90vw;
     max-height: 90vh;
-    border: 8px solid purple;
   }
 }
 
