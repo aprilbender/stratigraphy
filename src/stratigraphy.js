@@ -66,26 +66,30 @@ makePositionStyle = (e, positionBehavior) => {
 };
 
 const showHoverImage = (selector, e, positionBehavior) => {
-  console.log(`showHoverImage ${selector}`);
-  $(selector).removeClass("strat-hide-img");
-  $(selector).removeClass("strat-hover-img-fullscreen");
-  $(selector).removeClass("strat-hover-img-position");
-  $(selector).addClass("strat-show-img");
-  if (isSmallScreen()) {
-    $(selector).addClass("strat-hover-img-fullscreen");
-  } else {
-    $(selector).addClass("strat-hover-img-position");
-    const position = makePositionStyle(e, positionBehavior);
-    $(selector).attr("style", position);
-  }
+  window.setTimeout(() => {
+    console.log(`showHoverImage ${selector}`);
+    $(selector).removeClass("strat-hide-img");
+    $(selector).removeClass("strat-hover-img-fullscreen");
+    $(selector).removeClass("strat-hover-img-position");
+    $(selector).addClass("strat-show-img");
+    if (isSmallScreen()) {
+      $(selector).addClass("strat-hover-img-fullscreen");
+    } else {
+      $(selector).addClass("strat-hover-img-position");
+      const position = makePositionStyle(e, positionBehavior);
+      $(selector).attr("style", position);
+    }
+  }, 0);
 };
 
 const hideHoverImage = selector => {
-  console.log(`hideHoverImage ${selector}`);
-  $(selector).removeClass("strat-show-img");
-  $(selector).removeClass("strat-hover-img-fullscreen");
-  $(selector).removeClass("strat-hover-img-position");
-  $(selector).addClass("strat-hide-img");
+  window.setTimeout(() => {
+    console.log(`hideHoverImage ${selector}`);
+    $(selector).removeClass("strat-show-img");
+    $(selector).removeClass("strat-hover-img-fullscreen");
+    $(selector).removeClass("strat-hover-img-position");
+    $(selector).addClass("strat-hide-img");
+  }, 0);
 };
 
 const updateLargeSvgSize = () => {
