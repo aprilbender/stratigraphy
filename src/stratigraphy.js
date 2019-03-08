@@ -5,7 +5,16 @@
 const POSITION_BEHAVIOR_CENTERED = "centered";
 const POSITION_BEHAVIOR_LEFT_RIGHT = "left/right";
 
+const isSmallScreen = () => {
+  const smallest = Math.min(window.innerWidth, window.innerHeight);
+  return smallest < 480;
+};
+
 const whackHoverImage = (prefix, positionBehavior) => (e, ident, over) => {
+  if (isSmallScreen() && !over) {
+    // this event screws things up by causing hover img to disappear immediately.
+    return; // on phones, user will click to dismiss instead.
+  }
   window.setTimeout(() => {
     const selector = `#${prefix}${ident}`;
     if ($(selector).length) {
@@ -23,8 +32,8 @@ const whackHoverImage = (prefix, positionBehavior) => (e, ident, over) => {
 makePositionStyle = (e, positionBehavior) => {
   switch (positionBehavior) {
     case POSITION_BEHAVIOR_LEFT_RIGHT:
-      const smallest = Math.min(window.innerWidth, window.innerHeight);
-      if (smallest < 480) {
+      // const smallest = Math.min(window.innerWidth, window.innerHeight);
+      if (isSmallScreen()) {
         return `
           width: auto;
           height: 100%;
@@ -54,8 +63,7 @@ const showHoverImage = (selector, e, positionBehavior) => {
   $(selector).removeClass("strat-hover-img-fullscreen");
   $(selector).removeClass("strat-hover-img-position");
   $(selector).addClass("strat-show-img");
-  const smallest = Math.min(window.innerWidth, window.innerHeight);
-  if (smallest < 480) {
+  if (isSmallScreen()) {
     $(selector).addClass("strat-hover-img-fullscreen");
   } else {
     $(selector).addClass("strat-hover-img-position");
