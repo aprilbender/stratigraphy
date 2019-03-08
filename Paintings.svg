@@ -30180,7 +30180,8 @@
 </g>
 <g id="flags">
 	<a>
-		<path id="map-105" onmouseover="whack(this, 'pnt-1', true)" onmouseout="whack(this, 'pnt-1', false)" class="st637" d="
+		
+			<path id="map-105" onclick="whack(this, 'pnt-1', true)" onmouseover="whack(this, 'pnt-1', true)" onmouseout="whack(this, 'pnt-1', false)" class="st637" d="
 			M1696.48,153.94h26c2.76,0,5-2.24,5-5v-15c0-2.76-2.24-5-5-5h-26c-2.76,0-5,2.24-5,5v15
 			C1691.48,151.7,1693.72,153.94,1696.48,153.94z"/>
 	</a>
