@@ -7,12 +7,8 @@ const POSITION_BEHAVIOR_LEFT_RIGHT = "left/right";
 
 const registerClickToDismiss = cls => {
   const selector = `.${cls}`;
-  console.log(`registerClickToDismiss with selector: ${selector}`);
   if ($(selector).length) {
     $(selector).on("click", () => hideHoverImage(selector));
-    console.log(`registeredClickToDismiss on ${$(selector).length} elements`);
-  } else {
-    console.log("did not find any matches?");
   }
 };
 
@@ -23,18 +19,11 @@ const isSmallScreen = () => {
 
 const whackHoverImage = (prefix, positionBehavior) => (e, ident, over) => {
   if (isSmallScreen() && !over) {
-    console.log(
-      "whackHoverImage - small screen - bailing on mouse out",
-      `#${prefix}${ident}`
-    );
     // this event screws things up by causing hover img to disappear immediately.
     return; // on phones, user will click to dismiss instead.
   }
   window.setTimeout(() => {
     const selector = `#${prefix}${ident}`;
-    console.log(
-      `whackHoverImage - proceeding with ${selector} with over: ${over}`
-    );
     if ($(selector).length) {
       if (over) {
         showHoverImage(selector, e, positionBehavior);
@@ -42,7 +31,7 @@ const whackHoverImage = (prefix, positionBehavior) => (e, ident, over) => {
         hideHoverImage(selector);
       }
     } else {
-      console.log("Could not find selector:", selector);
+      console.warn("Could not find selector:", selector);
     }
   }, 0);
 };
@@ -78,7 +67,6 @@ makePositionStyle = (e, positionBehavior) => {
 
 const showHoverImage = (selector, e, positionBehavior) => {
   window.setTimeout(() => {
-    console.log(`showHoverImage ${selector}`);
     $(selector).removeClass("strat-hide-img");
     $(selector).removeClass("strat-hover-img-fullscreen");
     $(selector).removeClass("strat-hover-img-position");
@@ -95,7 +83,6 @@ const showHoverImage = (selector, e, positionBehavior) => {
 
 const hideHoverImage = selector => {
   window.setTimeout(() => {
-    console.log(`hideHoverImage ${selector}`);
     $(selector).removeClass("strat-show-img");
     $(selector).removeClass("strat-hover-img-fullscreen");
     $(selector).removeClass("strat-hover-img-position");
@@ -105,7 +92,7 @@ const hideHoverImage = selector => {
 
 const updateLargeSvgSize = () => {
   if (!$("#measure").length) {
-    console.log(
+    console.warn(
       "Warning: measure div does not exist. Did you forget to add it? Not fixing SVG size."
     );
     return;
