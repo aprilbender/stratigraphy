@@ -7,9 +7,12 @@ const POSITION_BEHAVIOR_LEFT_RIGHT = "left/right";
 
 const registerClickToDismiss = cls => {
   const selector = `.${cls}`;
+  console.log(`registerClickToDismiss with selector: ${selector}`);
   if ($(selector).length) {
     $(selector).on("click", () => hideHoverImage(selector));
     console.log(`registeredClickToDismiss on ${$(selector).length} elements`);
+  } else {
+    console.log("did not find any matches?");
   }
 };
 
