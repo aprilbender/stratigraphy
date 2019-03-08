@@ -5,6 +5,14 @@
 const POSITION_BEHAVIOR_CENTERED = "centered";
 const POSITION_BEHAVIOR_LEFT_RIGHT = "left/right";
 
+const registerClickToDismiss = cls => {
+  const selector = `.${cls}`;
+  if ($(selector).length) {
+    $(selector).on("click", () => hideHoverImage(selector));
+    console.log(`registeredClickToDismiss on ${$(selector).length} elements`);
+  }
+};
+
 const isSmallScreen = () => {
   const smallest = Math.min(window.innerWidth, window.innerHeight);
   return smallest < 480;
