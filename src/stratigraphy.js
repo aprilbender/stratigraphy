@@ -12,11 +12,18 @@ const isSmallScreen = () => {
 
 const whackHoverImage = (prefix, positionBehavior) => (e, ident, over) => {
   if (isSmallScreen() && !over) {
+    console.log(
+      "whackHoverImage - small screen - bailing on mouse out",
+      `#${prefix}${ident}`
+    );
     // this event screws things up by causing hover img to disappear immediately.
     return; // on phones, user will click to dismiss instead.
   }
   window.setTimeout(() => {
     const selector = `#${prefix}${ident}`;
+    console.log(
+      `whackHoverImage - proceeding with ${selector} with over: ${over}`
+    );
     if ($(selector).length) {
       if (over) {
         showHoverImage(selector, e, positionBehavior);
@@ -59,6 +66,7 @@ makePositionStyle = (e, positionBehavior) => {
 };
 
 const showHoverImage = (selector, e, positionBehavior) => {
+  console.log(`showHoverImage ${selector}`);
   $(selector).removeClass("strat-hide-img");
   $(selector).removeClass("strat-hover-img-fullscreen");
   $(selector).removeClass("strat-hover-img-position");
@@ -73,6 +81,7 @@ const showHoverImage = (selector, e, positionBehavior) => {
 };
 
 const hideHoverImage = selector => {
+  console.log(`hideHoverImage ${selector}`);
   $(selector).removeClass("strat-show-img");
   $(selector).removeClass("strat-hover-img-fullscreen");
   $(selector).removeClass("strat-hover-img-position");
