@@ -127,7 +127,9 @@ const navTo = id => {
 let currentPano = null;
 const hidePano = () => {
   if (currentPano != null) {
+    $(currentPano).attr("style", null);
     $(currentPano).removeClass("pano-show-img");
+    $(currentPano).removeClass("strat-hover-img-fullscreen");
     $(currentPano).addClass("pano-hide-img");
     currentPano = null;
   }
@@ -145,10 +147,14 @@ const showPano = (e, ident) => {
     }
     currentPano = "#embed-" + ident;
     $(currentPano).addClass("pano-show-img");
-    const position = `
+    if (isSmallScreen()) {
+      $(currentPano).addClass("strat-hover-img-fullscreen");
+    } else {
+      const position = `
             ${rect.x > midX ? "right" : "left"}: 50vw;
         `;
-    $(currentPano).attr("style", position);
+      $(currentPano).attr("style", position);
+    }
   } catch (err) {
     console.log(`ignoring error for ${currentPano}:`, err);
   }
