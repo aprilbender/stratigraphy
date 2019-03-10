@@ -153,10 +153,12 @@ const showPano = (e, ident) => {
     if (isSmallScreen()) {
       $(currentPano).addClass("strat-hover-img-fullscreen");
       $(currentPano).addClass("pano-show-img-mobile");
+
       $(".w-nav").attr("style", "display: none");
       $(".w-dropdown-toggle").attr("style", "display: none");
+      $(currentPano + " iframe").attr("style", null);
       $(currentPano + " iframe").attr("width", window.innerWidth);
-      $(currentPano + " iframe").attr("height", window.innerHeight - 132);
+      $(currentPano + " iframe").attr("height", window.innerHeight - 70);
     } else {
       const position = `
             ${rect.x > midX ? "right" : "left"}: 50vw;
