@@ -68,6 +68,16 @@
   transform: translate(0, -50%);
 }
 
+.pano-show-img-mobile {
+  border: none;
+  top: initial;
+  transform: initial;
+}
+
+.reset-z-index {
+  z-index: initial;
+}
+
 .sketchfab-close-btn {
   position: absolute;
   color: black;

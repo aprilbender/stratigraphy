@@ -130,7 +130,10 @@ const hidePano = () => {
     $(currentPano).attr("style", null);
     $(currentPano).removeClass("pano-show-img");
     $(currentPano).removeClass("strat-hover-img-fullscreen");
+    $(currentPano).removeClass("pano-show-img-mobile");
     $(currentPano).addClass("pano-hide-img");
+    $(".w-nav").removeClass("reset-z-index");
+    $(".w-dropdown-toggle").removeClass("reset-z-index");
     currentPano = null;
   }
 };
@@ -149,6 +152,9 @@ const showPano = (e, ident) => {
     $(currentPano).addClass("pano-show-img");
     if (isSmallScreen()) {
       $(currentPano).addClass("strat-hover-img-fullscreen");
+      $(currentPano).addClass("pano-show-img-mobile");
+      $(".w-nav").addClass("reset-z-index");
+      $(".w-dropdown-toggle").addClass("reset-z-index");
     } else {
       const position = `
             ${rect.x > midX ? "right" : "left"}: 50vw;
