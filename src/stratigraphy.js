@@ -155,6 +155,8 @@ const showPano = (e, ident) => {
       $(currentPano).addClass("pano-show-img-mobile");
       $(".w-nav").attr("style", "display: none");
       $(".w-dropdown-toggle").attr("style", "display: none");
+      $(currentPano + " iframe").attr("width", rect.width);
+      $(currentPano + " iframe").attr("height", rect.height);
     } else {
       const position = `
             ${rect.x > midX ? "right" : "left"}: 50vw;
