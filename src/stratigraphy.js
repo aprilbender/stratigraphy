@@ -132,8 +132,8 @@ const hidePano = () => {
     $(currentPano).removeClass("strat-hover-img-fullscreen");
     $(currentPano).removeClass("pano-show-img-mobile");
     $(currentPano).addClass("pano-hide-img");
-    $(".w-nav").removeClass("reset-z-index");
-    $(".w-dropdown-toggle").removeClass("reset-z-index");
+    $(".w-nav").attr("style", null);
+    $(".w-dropdown-toggle").attr("style", null);
     currentPano = null;
   }
 };
@@ -153,8 +153,8 @@ const showPano = (e, ident) => {
     if (isSmallScreen()) {
       $(currentPano).addClass("strat-hover-img-fullscreen");
       $(currentPano).addClass("pano-show-img-mobile");
-      $(".w-nav").addClass("reset-z-index");
-      $(".w-dropdown-toggle").addClass("reset-z-index");
+      $(".w-nav").attr("style", "display: none");
+      $(".w-dropdown-toggle").attr("style", "display: none");
     } else {
       const position = `
             ${rect.x > midX ? "right" : "left"}: 50vw;
