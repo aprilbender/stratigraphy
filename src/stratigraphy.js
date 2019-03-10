@@ -156,7 +156,7 @@ const showPano = (e, ident) => {
       $(".w-nav").attr("style", "display: none");
       $(".w-dropdown-toggle").attr("style", "display: none");
       $(currentPano + " iframe").attr("width", window.innerWidth);
-      $(currentPano + " iframe").attr("height", window.innerHeight);
+      $(currentPano + " iframe").attr("height", window.innerHeight - 132);
     } else {
       const position = `
             ${rect.x > midX ? "right" : "left"}: 50vw;
