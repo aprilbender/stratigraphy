@@ -31,7 +31,7 @@
 	.st24{display:inline;fill:none;stroke:#231F20;stroke-width:2;stroke-miterlimit:10;}
 	.st25{display:inline;fill:none;stroke:#231F20;stroke-miterlimit:10;}
 	.st26{fill:none;stroke:#231F20;stroke-width:0.5;stroke-miterlimit:10;}
-	.st27{opacity:0.8;fill:#FFFFFF;stroke:#00ADEE;stroke-width:2;}
+	.st27{opacity:0.9;fill:#FFFFFF;stroke:#00ADEE;stroke-width:2;}
 	.st28{fill:#00ADEE;}
 </style>
 <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="95.0295" y1="770.0105" x2="95.7367" y2="769.3034">
