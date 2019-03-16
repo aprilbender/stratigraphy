@@ -8,6 +8,7 @@
   display: block;
   background-size: contain;
   background-repeat: no-repeat;
+  z-index: 9999;
 }
 
 .strat-hover-img-fullscreen {
