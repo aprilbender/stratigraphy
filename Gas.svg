@@ -30194,31 +30194,30 @@
 </g>
 <g id="gas">
 	<circle id="gas-1" class="hoverthing" cx="343.81" cy="454.01" r="45"/>
-	<circle id="gas-2" class="hoverthing" cx="297.24" cy="525.3" r="37.5"/>
+	<circle id="gas-2" class="hoverthing" cx="297.24" cy="525.3" r="30"/>
 	<circle id="gas-4" class="hoverthing" cx="296.25" cy="588.71" r="22.5"/>
 	<circle id="gas-3" class="hoverthing" cx="406.52" cy="503.41" r="15"/>
 	<circle id="gas-5" class="hoverthing" cx="281.33" cy="1491.79" r="15"/>
 	<circle id="gas-7" class="hoverthing" cx="277.36" cy="1562.25" r="15"/>
-	<circle id="gas-11" class="hoverthing" cx="351.85" cy="1706.29" r="7.5"/>
-	<circle id="gas-24" class="hoverthing" cx="541.89" cy="1576.5" r="7.5"/>
+	<circle id="gas-11" class="hoverthing" cx="342.25" cy="1687.24" r="10"/>
+	<circle id="gas-24" class="hoverthing" cx="541.89" cy="1576.5" r="10"/>
 	<circle id="gas-8" class="hoverthing" cx="276.33" cy="1595.9" r="15"/>
 	<circle id="gas-23" class="hoverthing" cx="579.53" cy="1508.13" r="22.5"/>
 	<circle id="gas-9" class="hoverthing" cx="339.6" cy="1588.99" r="22.5"/>
-	<circle id="gas-10" class="hoverthing" cx="288.08" cy="1693.03" r="30"/>
-	<circle id="gas-12" class="hoverthing" cx="306.01" cy="1787.16" r="37.5"/>
+	<circle id="gas-12" class="hoverthing" cx="310.01" cy="1787.16" r="45"/>
 	<circle id="gas-6" class="hoverthing" cx="327.19" cy="1505.17" r="15"/>
 	<circle id="gas-22" class="hoverthing" cx="575.89" cy="916.6" r="15"/>
 	<circle id="gas-21" class="hoverthing" cx="539.23" cy="840.33" r="15"/>
 	<circle id="gas-20" class="hoverthing" cx="458.45" cy="614.83" r="15"/>
 	<circle id="gas-13" class="hoverthing" cx="581.31" cy="343.34" r="15"/>
-	<circle id="gas-18" class="hoverthing" cx="560.28" cy="533.95" r="15"/>
+	<circle id="gas-18" class="hoverthing" cx="560.28" cy="533.95" r="22.5"/>
 	<circle id="gas-29" class="hoverthing" cx="685.12" cy="529" r="15"/>
 	<circle id="gas-35" class="hoverthing" cx="822.85" cy="447.75" r="15"/>
 	<circle id="gas-30" class="hoverthing" cx="728.72" cy="589.44" r="15"/>
 	<circle id="gas-31" class="hoverthing" cx="737.7" cy="913.54" r="15"/>
 	<circle id="gas-32" class="hoverthing" cx="738.7" cy="990.82" r="15"/>
-	<circle id="gas-33" class="hoverthing" cx="715.27" cy="1173.23" r="7.5"/>
-	<circle id="gas-34" class="hoverthing" cx="721.31" cy="1577.55" r="7.5"/>
+	<circle id="gas-33" class="hoverthing" cx="715.27" cy="1173.23" r="10"/>
+	<circle id="gas-34" class="hoverthing" cx="721.31" cy="1577.55" r="10"/>
 	<circle id="gas-19" class="hoverthing" cx="568.73" cy="586.77" r="22.5"/>
 	<circle id="gas-17" class="hoverthing" cx="465.11" cy="546.7" r="22.5"/>
 	<circle id="gas-16" class="hoverthing" cx="459.17" cy="482.3" r="22.5"/>
@@ -30233,19 +30232,19 @@
 	<circle id="gas-48" class="hoverthing" cx="1937.19" cy="449.77" r="22.5"/>
 	<circle id="gas-49" class="hoverthing" cx="1946.44" cy="912.81" r="22.5"/>
 	<circle id="gas-51" class="hoverthing" cx="2118.54" cy="598.39" r="30"/>
-	<circle id="gas-42" class="hoverthing" cx="1787.76" cy="539.37" r="22.5"/>
+	<circle id="gas-42" class="hoverthing" cx="1788.87" cy="550.53" r="30"/>
 	<circle id="gas-41" class="hoverthing" cx="1788.33" cy="497.48" r="15"/>
 	<circle id="gas-37" class="hoverthing" cx="1263.19" cy="837.34" r="22.5"/>
-	<circle id="gas-43" class="hoverthing" cx="1750.68" cy="566.85" r="7.5"/>
-	<circle id="gas-50" class="hoverthing" cx="2063.78" cy="479.66" r="7.5"/>
-	<circle id="gas-44" class="hoverthing" cx="1796.29" cy="1565.32" r="7.5"/>
-	<circle id="gas-53" class="hoverthing" cx="2104.66" cy="1540.09" r="7.5"/>
-	<circle id="gas-54" class="hoverthing" cx="2105.73" cy="1585" r="7.5"/>
-	<circle id="gas-56" class="hoverthing" cx="2101.3" cy="1633.78" r="7.5"/>
+	<circle id="gas-43" class="hoverthing" cx="1740.68" cy="566.85" r="10"/>
+	<circle id="gas-50" class="hoverthing" cx="2063.78" cy="479.66" r="10"/>
+	<circle id="gas-44" class="hoverthing" cx="1796.29" cy="1561.32" r="10"/>
+	<circle id="gas-53" class="hoverthing" cx="2101.66" cy="1540.09" r="10"/>
+	<circle id="gas-54" class="hoverthing" cx="2105.73" cy="1585" r="10"/>
+	<circle id="gas-56" class="hoverthing" cx="2101.3" cy="1633.78" r="10"/>
 	<circle id="gas-55" class="hoverthing" cx="2133.44" cy="1613.62" r="15"/>
 	<circle id="gas-45" class="hoverthing" cx="1793.67" cy="1599.2" r="22.5"/>
 	<circle id="gas-52" class="hoverthing" cx="2136.49" cy="1523.89" r="22.5"/>
-	<circle id="gas-46" class="hoverthing" cx="1795.96" cy="1632.52" r="7.5"/>
+	<circle id="gas-46" class="hoverthing" cx="1795.96" cy="1636.52" r="10"/>
 	<circle id="gas-15" class="hoverthing" cx="522.16" cy="451.09" r="45"/>
 	<circle id="gas-38" class="hoverthing" cx="1682.41" cy="515.55" r="37.5"/>
 	<circle id="gas-39" class="hoverthing" cx="1680.43" cy="594.6" r="37.5"/>
