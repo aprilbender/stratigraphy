@@ -30200,29 +30200,29 @@
 <g id="oil">
 	<circle id="oil-16" class="hoverthing" cx="550.22" cy="1507.8" r="45"/>
 	<circle id="oil-41" class="hoverthing" cx="1690.94" cy="603.34" r="37.5"/>
-	<circle id="oil-4" class="hoverthing" cx="275.43" cy="1528.28" r="7.5"/>
-	<circle id="oil-17" class="hoverthing" cx="539.98" cy="1576.5" r="7.5"/>
-	<circle id="oil-58" class="hoverthing" cx="724.06" cy="1295.4" r="7.5"/>
-	<circle id="oil-57" class="hoverthing" cx="718.56" cy="1575.58" r="7.5"/>
-	<circle id="oil-7" class="hoverthing" cx="479.52" cy="375.29" r="7.5"/>
-	<circle id="oil-59" class="hoverthing" cx="1228.58" cy="526.89" r="7.5"/>
-	<circle id="oil-39" class="hoverthing" cx="1800.3" cy="571.8" r="7.5"/>
-	<circle id="oil-46" class="hoverthing" cx="1739.86" cy="1630.99" r="7.5"/>
-	<circle id="oil-53" class="hoverthing" cx="2037.45" cy="1634.94" r="7.5"/>
-	<circle id="oil-51" class="hoverthing" cx="2124.03" cy="1564.76" r="7.5"/>
-	<circle id="oil-54" class="hoverthing" cx="2118.79" cy="1778.67" r="7.5"/>
-	<circle id="oil-48" class="hoverthing" cx="1694.28" cy="1806.27" r="7.5"/>
-	<circle id="oil-10" class="hoverthing" cx="486.8" cy="470.08" r="7.5"/>
-	<circle id="oil-9" class="hoverthing" cx="582.58" cy="460.83" r="7.5"/>
-	<circle id="oil-12" class="hoverthing" cx="552.86" cy="551.99" r="7.5"/>
-	<circle id="oil-1" class="hoverthing" cx="283.35" cy="540.1" r="7.5"/>
-	<circle id="oil-56" class="hoverthing" cx="491.3" cy="1167.34" r="7.5"/>
-	<circle id="oil-2" class="hoverthing" cx="382.83" cy="542.89" r="15"/>
+	<circle id="oil-4" class="hoverthing" cx="277.93" cy="1530.78" r="10"/>
+	<circle id="oil-17" class="hoverthing" cx="542.48" cy="1579" r="10"/>
+	<circle id="oil-58" class="hoverthing" cx="726.56" cy="1297.9" r="10"/>
+	<circle id="oil-57" class="hoverthing" cx="721.06" cy="1578.08" r="10"/>
+	<circle id="oil-7" class="hoverthing" cx="482.02" cy="377.79" r="10"/>
+	<circle id="oil-59" class="hoverthing" cx="1223.08" cy="529.39" r="15"/>
+	<circle id="oil-39" class="hoverthing" cx="1800.8" cy="574.3" r="10"/>
+	<circle id="oil-46" class="hoverthing" cx="1742.36" cy="1633.49" r="10"/>
+	<circle id="oil-53" class="hoverthing" cx="2039.95" cy="1634.44" r="10"/>
+	<circle id="oil-51" class="hoverthing" cx="2126.53" cy="1572.26" r="10"/>
+	<circle id="oil-54" class="hoverthing" cx="2121.29" cy="1781.17" r="10"/>
+	<circle id="oil-48" class="hoverthing" cx="1696.78" cy="1808.77" r="10"/>
+	<circle id="oil-10" class="hoverthing" cx="489.3" cy="472.58" r="10"/>
+	<circle id="oil-9" class="hoverthing" cx="585.08" cy="463.33" r="10"/>
+	<circle id="oil-12" class="hoverthing" cx="554.36" cy="554.49" r="10"/>
+	<circle id="oil-1" class="hoverthing" cx="285.66" cy="560.44" r="10"/>
+	<circle id="oil-56" class="hoverthing" cx="493.8" cy="1169.84" r="10"/>
+	<circle id="oil-2" class="hoverthing" cx="377.83" cy="537.89" r="10"/>
 	<circle id="oil-8" class="hoverthing" cx="539.98" cy="444.98" r="22.5"/>
 	<circle id="oil-11" class="hoverthing" cx="574.91" cy="522" r="22.5"/>
 	<circle id="oil-22" class="hoverthing" cx="749.29" cy="540.83" r="22.5"/>
 	<circle id="oil-30" class="hoverthing" cx="1248.21" cy="590.33" r="22.5"/>
-	<circle id="oil-34" class="hoverthing" cx="1691.11" cy="462.51" r="22.5"/>
+	<circle id="oil-34" class="hoverthing" cx="1691.11" cy="459.51" r="22.5"/>
 	<circle id="oil-35" class="hoverthing" cx="1793.17" cy="479.36" r="22.5"/>
 	<circle id="oil-38" class="hoverthing" cx="1751.75" cy="561.89" r="22.5"/>
 	<circle id="oil-33" class="hoverthing" cx="1783.26" cy="436.75" r="15"/>
@@ -30230,7 +30230,7 @@
 	<circle id="oil-14" class="hoverthing" cx="544.19" cy="837.08" r="22.5"/>
 	<circle id="oil-15" class="hoverthing" cx="577.88" cy="918.33" r="22.5"/>
 	<circle id="oil-25" class="hoverthing" cx="744.34" cy="916.35" r="22.5"/>
-	<circle id="oil-3" class="hoverthing" cx="390.76" cy="583.85" r="15"/>
+	<circle id="oil-3" class="hoverthing" cx="390.76" cy="581.85" r="15"/>
 	<circle id="oil-13" class="hoverthing" cx="556.23" cy="586.82" r="15"/>
 	<circle id="oil-5" class="hoverthing" cx="342.8" cy="1556.02" r="22.5"/>
 	<circle id="oil-28" class="hoverthing" cx="689.59" cy="1494.59" r="15"/>
@@ -30244,17 +30244,17 @@
 	<circle id="oil-29" class="hoverthing" cx="1274.48" cy="503.73" r="15"/>
 	<circle id="oil-36" class="hoverthing" cx="1785.75" cy="526.49" r="15"/>
 	<circle id="oil-31" class="hoverthing" cx="1256.51" cy="837.72" r="15"/>
-	<circle id="oil-32" class="hoverthing" cx="1609.25" cy="1445.1" r="22.5"/>
+	<circle id="oil-32" class="hoverthing" cx="1721.61" cy="1449.47" r="22.5"/>
 	<circle id="oil-43" class="hoverthing" cx="1719.23" cy="1541.21" r="15"/>
 	<circle id="oil-49" class="hoverthing" cx="1664.73" cy="1824.58" r="15"/>
 	<circle id="oil-42" class="hoverthing" cx="1792.55" cy="1520.4" r="15"/>
 	<circle id="oil-44" class="hoverthing" cx="1791.56" cy="1574.9" r="15"/>
 	<circle id="oil-50" class="hoverthing" cx="2106.4" cy="1539.51" r="15"/>
 	<circle id="oil-52" class="hoverthing" cx="2107.39" cy="1613.82" r="15"/>
-	<circle id="oil-55" class="hoverthing" cx="2118.29" cy="1804.05" r="15"/>
+	<circle id="oil-55" class="hoverthing" cx="1774.26" cy="1791.26" r="15"/>
 	<circle id="oil-45" class="hoverthing" cx="1790.55" cy="1616.5" r="22.5"/>
 	<circle id="oil-47" class="hoverthing" cx="1677.4" cy="1768.95" r="22.5"/>
 	<circle id="oil-6" class="hoverthing" cx="288.88" cy="1591.49" r="22.5"/>
-	<circle id="oil-37" class="hoverthing" cx="1687.68" cy="520.94" r="30"/>
+	<circle id="oil-37" class="hoverthing" cx="1685.18" cy="524.44" r="37.5"/>
 </g>
 </svg>
