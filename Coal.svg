@@ -30187,8 +30187,8 @@
 	<circle id="coal-6" class="hoverthing" cx="362.79" cy="502.5" r="30"/>
 	<circle id="coal-7" class="hoverthing" cx="394.5" cy="583.09" r="30"/>
 	<circle id="coal-11" class="hoverthing" cx="1351.96" cy="444.88" r="15"/>
-	<circle id="coal-8" class="hoverthing" cx="575.16" cy="587.65" r="7.5"/>
-	<circle id="coal-9" class="hoverthing" cx="750.57" cy="397.47" r="7.5"/>
-	<circle id="coal-12" class="hoverthing" cx="1610.84" cy="425.33" r="7.5"/>
+	<circle id="coal-8" class="hoverthing" cx="564.66" cy="587.15" r="10"/>
+	<circle id="coal-9" class="hoverthing" cx="753.07" cy="399.97" r="10"/>
+	<circle id="coal-12" class="hoverthing" cx="1613.34" cy="427.83" r="10"/>
 </g>
 </svg>
