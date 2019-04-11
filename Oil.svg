@@ -30207,6 +30207,7 @@
 	<circle id="oil-7" class="hoverthing" cx="482.02" cy="377.79" r="10"/>
 	<circle id="oil-59" class="hoverthing" cx="1223.08" cy="529.39" r="15"/>
 	<circle id="oil-39" class="hoverthing" cx="1800.8" cy="574.3" r="10"/>
+	<circle id="oil-60" class="hoverthing" cx="1744.64" cy="533.45" r="10"/>
 	<circle id="oil-46" class="hoverthing" cx="1742.36" cy="1633.49" r="10"/>
 	<circle id="oil-53" class="hoverthing" cx="2039.95" cy="1634.44" r="10"/>
 	<circle id="oil-51" class="hoverthing" cx="2126.53" cy="1572.26" r="10"/>
@@ -30224,7 +30225,7 @@
 	<circle id="oil-30" class="hoverthing" cx="1248.21" cy="590.33" r="22.5"/>
 	<circle id="oil-34" class="hoverthing" cx="1691.11" cy="459.51" r="22.5"/>
 	<circle id="oil-35" class="hoverthing" cx="1793.17" cy="479.36" r="22.5"/>
-	<circle id="oil-38" class="hoverthing" cx="1751.75" cy="561.89" r="22.5"/>
+	<circle id="oil-38" class="hoverthing" cx="1754.07" cy="570.44" r="22.5"/>
 	<circle id="oil-33" class="hoverthing" cx="1783.26" cy="436.75" r="15"/>
 	<circle id="oil-18" class="hoverthing" cx="736.41" cy="357.52" r="22.5"/>
 	<circle id="oil-14" class="hoverthing" cx="544.19" cy="837.08" r="22.5"/>
