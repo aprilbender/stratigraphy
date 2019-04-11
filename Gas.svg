@@ -30193,10 +30193,10 @@
 	</g>
 </g>
 <g id="gas">
-	<circle id="gas-1" class="hoverthing" cx="343.81" cy="454.01" r="45"/>
+	<circle id="gas-1" class="hoverthing" cx="336.81" cy="452.01" r="45"/>
 	<circle id="gas-2" class="hoverthing" cx="297.24" cy="525.3" r="30"/>
 	<circle id="gas-4" class="hoverthing" cx="296.25" cy="588.71" r="22.5"/>
-	<circle id="gas-3" class="hoverthing" cx="406.52" cy="503.41" r="15"/>
+	<circle id="gas-3" class="hoverthing" cx="407.78" cy="465.49" r="22.5"/>
 	<circle id="gas-5" class="hoverthing" cx="281.33" cy="1491.79" r="15"/>
 	<circle id="gas-7" class="hoverthing" cx="277.36" cy="1562.25" r="15"/>
 	<circle id="gas-11" class="hoverthing" cx="342.25" cy="1687.24" r="10"/>
@@ -30217,6 +30217,8 @@
 	<circle id="gas-31" class="hoverthing" cx="737.7" cy="913.54" r="15"/>
 	<circle id="gas-32" class="hoverthing" cx="738.7" cy="990.82" r="15"/>
 	<circle id="gas-33" class="hoverthing" cx="715.27" cy="1173.23" r="10"/>
+	<circle id="gas-57" class="hoverthing" cx="471.94" cy="396.39" r="10"/>
+	<circle id="gas-58" class="hoverthing" cx="455.44" cy="423.44" r="10"/>
 	<circle id="gas-34" class="hoverthing" cx="721.31" cy="1577.55" r="10"/>
 	<circle id="gas-19" class="hoverthing" cx="568.73" cy="586.77" r="22.5"/>
 	<circle id="gas-17" class="hoverthing" cx="465.11" cy="546.7" r="22.5"/>
