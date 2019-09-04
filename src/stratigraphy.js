@@ -100,6 +100,19 @@ const updateLargeSvgSize = () => {
   const measureWidth = $("#measure")[0].getBoundingClientRect().width;
   const widthStyle = `width: ${measureWidth}px`;
   $("#ajaxContentParent").attr("style", widthStyle);
+
+  // There might be related images that will have to scale similarly
+  // If they are already loaded, set their width directly.
+  $(".resetwidth").attr("style", widthStyle);
+  // If they're not yet loaded, set their width once they show up.
+  const zoomableContentParent = document.getElementById(
+    "zoomableContentParent"
+  );
+  if (zoomableContentParent) {
+    const mutationCfg = { childList: true, subtree: true };
+    const observer = new MutationObserver(domSubtreeEvent(widthStyle));
+    observer.observe(zoomableContentParent, mutationCfg);
+  }
 };
 
 const loadLargeSvg = (targetSelector, svgUrl, successCallback) => {
