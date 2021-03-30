@@ -13,6 +13,7 @@
     "compress:coal": "npx svgo 'Coal.svg' -o 'Coal_Compressed.svg'",
     "compress:gas": "npx svgo 'Gas.svg' -o 'Gas_Compressed.svg'",
     "compress:oil": "npx svgo 'Oil.svg' -o 'Oil_Compressed.svg'",
+    "compress:zircons": "npx svgo 'Zircons.svg' -o 'Zircons_Compressed.svg'",
     "compress:strat_chart": "npx svgo 'Strat Chart.svg' -o 'Strat_Chart_Compressed.svg'"
   },
   "repository": {
