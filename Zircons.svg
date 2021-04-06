@@ -2068,7 +2068,6 @@
 	.st2061{clip-path:url(#SVGID_8_);fill:none;stroke:#292929;stroke-width:2;}
 	.st2062{clip-path:url(#SVGID_8_);fill:none;stroke:#292929;stroke-width:0.75;}
 	.st2063{opacity:0.7;clip-path:url(#SVGID_2503_);}
-	.st2064{opacity:0.75;fill:#00FF00;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
 </style>
 <pattern  x="-100" y="-96" width="142.84" height="145.59" patternUnits="userSpaceOnUse" id="Unnamed_Pattern_14" viewBox="0 -145.59 142.84 145.59" style="overflow:visible;">
 	<g>
@@ -24957,24 +24956,24 @@
 			1506,499.52 1506,473.27 1492.5,456.09 1479,473.27 		"/>
 	</a>
 	<a xlink:href="#e" >
-		<polygon id="z-e" onclick="navTo('e')" class="st2064" points="1510.5,340.52 1510.5,366.76 1524,383.94 1537.5,366.76 
+		<polygon id="z-e" onclick="navTo('e')" class="hoverthing" points="1510.5,340.52 1510.5,366.76 1524,383.94 1537.5,366.76 
 			1537.5,340.52 1537.5,314.27 1524,297.09 1510.5,314.27 		"/>
 	</a>
 	<a xlink:href="#f" >
-		<polygon id="z-f" onclick="navTo('f')" class="st2064" points="1559.5,340.52 1559.5,366.76 1573,383.94 1586.5,366.76 
+		<polygon id="z-f" onclick="navTo('f')" class="hoverthing" points="1559.5,340.52 1559.5,366.76 1573,383.94 1586.5,366.76 
 			1586.5,340.52 1586.5,314.27 1573,297.09 1559.5,314.27 		"/>
 	</a>
 	<a xlink:href="#a" >
-		<polygon id="z-a" onclick="navTo('a')" class="st2064" points="1490,411.52 1490,437.76 1503.5,454.94 1517,437.76 1517,411.52 
-			1517,385.27 1503.5,368.09 1490,385.27 		"/>
+		<polygon id="z-a" onclick="navTo('a')" class="hoverthing" points="1490,411.52 1490,437.76 1503.5,454.94 1517,437.76 
+			1517,411.52 1517,385.27 1503.5,368.09 1490,385.27 		"/>
 	</a>
 	<a xlink:href="#b" >
-		<polygon id="z-b" onclick="navTo('b')" class="st2064" points="1534,415.52 1534,441.76 1547.5,458.94 1561,441.76 1561,415.52 
-			1561,389.27 1547.5,372.09 1534,389.27 		"/>
+		<polygon id="z-b" onclick="navTo('b')" class="hoverthing" points="1534,415.52 1534,441.76 1547.5,458.94 1561,441.76 
+			1561,415.52 1561,389.27 1547.5,372.09 1534,389.27 		"/>
 	</a>
 	<a xlink:href="#c" >
-		<polygon id="z-c" onclick="navTo('c')" class="st2064" points="1586,415.52 1586,441.76 1599.5,458.94 1613,441.76 1613,415.52 
-			1613,389.27 1599.5,372.09 1586,389.27 		"/>
+		<polygon id="z-c" onclick="navTo('c')" class="hoverthing" points="1586,415.52 1586,441.76 1599.5,458.94 1613,441.76 
+			1613,415.52 1613,389.27 1599.5,372.09 1586,389.27 		"/>
 	</a>
 	<g>
 	</g>
