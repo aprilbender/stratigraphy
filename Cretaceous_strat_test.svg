@@ -32,7 +32,6 @@
 	.st25{fill:none;stroke:#000000;stroke-width:0.9987;}
 	.st26{fill:#FFFFFF;}
 	.st27{fill:none;stroke:#1C8CC9;stroke-width:3;}
-	.st28{fill:#1C8CC9;}
 </style>
 <g id="base">
 	<g>
@@ -13555,7 +13554,7 @@
 		c3.17,0,5.74,2.57,5.74,5.74v12.75C511.18,1288.97,508.27,1291.88,504.68,1291.88z"/>
 	<path id="fossil-2" onclick="showPano(this, 'fossil-2')" class="pip" d="M504.68,662.03h-25.49v-25h26.26
 		c3.17,0,5.74,2.57,5.74,5.74v12.75C511.18,659.12,508.27,662.03,504.68,662.03z"/>
-	<path id="fossil-10" onclick="showPano(this, 'fossil-10')" class="st28" d="M503.98,1156.12h-25.49v-25h26.26
+	<path id="fossil-10" onclick="showPano(this, 'fossil-10')" class="pip" d="M503.98,1156.12h-25.49v-25h26.26
 		c3.17,0,5.74,2.57,5.74,5.74v12.75C510.49,1153.21,507.57,1156.12,503.98,1156.12z"/>
 	<line class="st27" x1="479.18" y1="649.2" x2="440.49" y2="649.2"/>
 	<path id="fossil-8" onclick="showPano(this, 'fossil-8')" class="pip" d="M504.68,714.56h-25.49v-25h26.26
@@ -13565,7 +13564,7 @@
 		c3.17,0,5.74,2.57,5.74,5.74v12.75C511.18,1362.6,508.27,1365.52,504.68,1365.52z"/>
 	<line class="st27" x1="479.18" y1="1352.68" x2="440.49" y2="1352.68"/>
 	<line class="st27" x1="478.83" y1="1143.31" x2="440.13" y2="1143.31"/>
-	<path id="fossil-7" onclick="showPano(this, 'fossil-7')" class="st28" d="M466.37,693.72h-25.49v-25h26.26
+	<path id="fossil-7" onclick="showPano(this, 'fossil-7')" class="pip" d="M466.37,693.72h-25.49v-25h26.26
 		c3.17,0,5.74,2.57,5.74,5.74v12.75C472.87,690.81,469.96,693.72,466.37,693.72z"/>
 	<line class="st27" x1="440.59" y1="680.91" x2="411.97" y2="680.91"/>
 </g>
