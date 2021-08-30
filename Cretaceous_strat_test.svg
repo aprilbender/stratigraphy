@@ -13555,7 +13555,7 @@
 		c3.17,0,5.74,2.57,5.74,5.74v12.75C511.18,1288.97,508.27,1291.88,504.68,1291.88z"/>
 	<path id="fossil-2" onclick="showPano(this, 'fossil-2')" class="pip" d="M504.68,662.03h-25.49v-25h26.26
 		c3.17,0,5.74,2.57,5.74,5.74v12.75C511.18,659.12,508.27,662.03,504.68,662.03z"/>
-	<path id="map-105_7_" onclick="showPano(this, 'fossil-x')" class="st28" d="M503.98,1156.12h-25.49v-25h26.26
+	<path id="fossil-10" onclick="showPano(this, 'fossil-x')" class="st28" d="M503.98,1156.12h-25.49v-25h26.26
 		c3.17,0,5.74,2.57,5.74,5.74v12.75C510.49,1153.21,507.57,1156.12,503.98,1156.12z"/>
 	<line class="st27" x1="479.18" y1="649.2" x2="440.49" y2="649.2"/>
 	<path id="fossil-8" onclick="showPano(this, 'fossil-x')" class="pip" d="M504.68,714.56h-25.49v-25h26.26
