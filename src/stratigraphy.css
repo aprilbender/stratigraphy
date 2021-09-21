@@ -113,6 +113,10 @@ svg #flags g {
   }
   */
 
+*[class*="flag_style"]:hover {
+  opacity: 1;
+}
+
 svg .flag_style:hover {
   opacity: 1;
   fill: white;
