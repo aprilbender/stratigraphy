@@ -6,10 +6,10 @@
 	.flag_style{opacity:0.7;fill:#FFFFFF;}
 	.st0{display:none;}
 	.st1{display:inline;fill:none;stroke:#ED1C24;stroke-width:2;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#EC2124;stroke-width:2;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#ED1C24;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#EC2124;stroke-width:4;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#ED1C24;stroke-width:4;stroke-miterlimit:10;}
 	.st4{fill:none;}
-	.st5{fill:none;stroke:#DD3826;stroke-width:2;}
+	.st5{fill:none;stroke:#DD3826;stroke-width:4;}
 </style>
 <g id="base_image">
 	
@@ -17719,15 +17719,15 @@ CMLr4/8XYACjloYsEtH6PgAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 -33.3741 0.7
 		<path d="M73.94,129.15h1.23v4.23h0.03c0.2-0.35,0.5-0.66,0.88-0.87c0.36-0.21,0.8-0.35,1.26-0.35c0.91,0,2.37,0.56,2.37,2.9v4.03
 			h-1.23v-3.89c0-1.09-0.41-2.02-1.57-2.02c-0.8,0-1.43,0.56-1.65,1.23c-0.07,0.17-0.08,0.35-0.08,0.59v4.09h-1.23V129.15z"/>
 	</g>
-	<line class="st2" x1="66.98" y1="369.42" x2="79.97" y2="391.31"/>
+	<line class="st2" x1="65.98" y1="369.42" x2="78.97" y2="391.31"/>
 	<polyline class="st2" points="86.46,190.2 73.47,168.32 86.46,151.52 	"/>
 	<polyline class="st5" points="525.5,601.12 430.11,600.12 373.32,625.58 316.84,673.07 	"/>
 </g>
 <g id="flags">
 	<a xlink:href="#first" >
-		<path id="panel-1" onclick="navTo('first')" class="flag_style" d="M637.22,424.38l1.29-0.28c5.48-1.2,10.89,2.27,12.09,7.74v0
+		<path id="panel-1" onclick="navTo('first')" class="flag_style" d="M638.22,424.38l1.29-0.28c5.48-1.2,10.89,2.27,12.09,7.74v0
 			c1.19,5.41-2.24,10.76-7.65,11.95l-16.9,3.7c-0.22,0.05-0.45-0.09-0.5-0.32l-4.14-18.9c-0.05-0.22,0.09-0.45,0.32-0.5
-			L637.22,424.38"/>
+			L638.22,424.38"/>
 	</a>
 	<a xlink:href="#second" >
 		<path id="panel-2" onclick="navTo('second')" class="flag_style" d="M290.88,210.56l0.83-1.03c3.51-4.37,9.9-5.07,14.27-1.56v0
@@ -17735,14 +17735,13 @@ CMLr4/8XYACjloYsEtH6PgAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 -33.3741 0.7
 			L290.88,210.56"/>
 	</a>
 	<a xlink:href="#third" >
-		<path id="panel-2_1_" onclick="navTo('third')" class="flag_style" d="M334.99,339.94l-0.01-1.32
-			c-0.04-5.61,4.47-10.18,10.08-10.22h0c5.54-0.04,10.06,4.42,10.1,9.96l0.12,17.3c0,0.23-0.18,0.42-0.41,0.42l-19.35,0.13
-			c-0.23,0-0.42-0.18-0.42-0.41L334.99,339.94"/>
+		<path id="flag-3" onclick="navTo('third')" class="flag_style" d="M334.99,338.94l-0.01-1.32c-0.04-5.61,4.47-10.18,10.08-10.22h0
+			c5.54-0.04,10.06,4.42,10.1,9.96l0.12,17.3c0,0.23-0.18,0.42-0.41,0.42l-19.35,0.13c-0.23,0-0.42-0.18-0.42-0.41L334.99,338.94"/>
 	</a>
 	<a xlink:href="#fourth" >
-		<path id="panel-2_2_" onclick="navTo('fourth')" class="flag_style" d="M374.18,605.85l-0.52-1.22
-			c-2.2-5.15,0.19-11.12,5.35-13.32l0,0c5.09-2.18,10.99,0.19,13.16,5.28l6.8,15.91c0.09,0.21-0.01,0.46-0.22,0.55l-17.79,7.6
-			c-0.21,0.09-0.46-0.01-0.55-0.22L374.18,605.85"/>
+		<path id="flag-4" onclick="navTo('fourth')" class="flag_style" d="M374.18,604.85l-0.52-1.22c-2.2-5.15,0.19-11.12,5.35-13.32
+			l0,0c5.09-2.18,10.99,0.19,13.16,5.28l6.8,15.91c0.09,0.21-0.01,0.46-0.22,0.55l-17.79,7.6c-0.21,0.09-0.46-0.01-0.55-0.22
+			L374.18,604.85"/>
 	</a>
 	<g>
 	</g>
