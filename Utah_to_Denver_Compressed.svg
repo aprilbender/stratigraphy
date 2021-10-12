@@ -659,25 +659,25 @@
     </g>
     <g id="Central_Utah_to_Denver_Section_svg__flags">
         <a xlink:href="#Central_Utah_to_Denver_Section_svg__d">
-            <path id="Central_Utah_to_Denver_Section_svg__a_1_" onclick="navTo('d')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 619.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
+            <path id="Central_Utah_to_Denver_Section_svg__utah-a" onclick="navTo('d')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 619.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
         </a>
         <a xlink:href="#Central_Utah_to_Denver_Section_svg__e">
-            <path id="Central_Utah_to_Denver_Section_svg__b" onclick="navTo('e')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 799.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
+            <path id="Central_Utah_to_Denver_Section_svg__utah-b" onclick="navTo('e')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 799.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
         </a>
         <a xlink:href="#Central_Utah_to_Denver_Section_svg__f">
-            <path id="Central_Utah_to_Denver_Section_svg__c" onclick="navTo('f')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 982.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
+            <path id="Central_Utah_to_Denver_Section_svg__utah-c" onclick="navTo('f')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 982.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
         </a>
         <a xlink:href="#Central_Utah_to_Denver_Section_svg__g">
-            <path id="Central_Utah_to_Denver_Section_svg__d" onclick="navTo('g')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 1159.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
+            <path id="Central_Utah_to_Denver_Section_svg__utah-d" onclick="navTo('g')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 1159.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
         </a>
         <a xlink:href="#Central_Utah_to_Denver_Section_svg__h">
-            <path id="Central_Utah_to_Denver_Section_svg__e" onclick="navTo('h')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 1506.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
+            <path id="Central_Utah_to_Denver_Section_svg__utah-e" onclick="navTo('h')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 1506.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
         </a>
         <a xlink:href="#Central_Utah_to_Denver_Section_svg__i">
-            <path id="Central_Utah_to_Denver_Section_svg__f" onclick="navTo('i')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 2062.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
+            <path id="Central_Utah_to_Denver_Section_svg__utah-f" onclick="navTo('i')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 2062.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
         </a>
         <a xlink:href="#Central_Utah_to_Denver_Section_svg__j">
-            <path id="Central_Utah_to_Denver_Section_svg__g" onclick="navTo('j')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 2943.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
+            <path id="Central_Utah_to_Denver_Section_svg__utah-g" onclick="navTo('j')" class="Central_Utah_to_Denver_Section_svg__flag_style" d="M1270.49 2943.62h-82.07v-33.65h82.84a5.74 5.74 0 0 1 5.74 5.74v21.4c0 3.6-2.91 6.51-6.51 6.51z"/>
         </a>
     </g>
 </svg>
