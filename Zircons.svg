@@ -24953,15 +24953,15 @@
 </g>
 <g id="zircons">
 	<a xlink:href="#rr" >
-		<polygon id="z-d_1_" onclick="navTo('rr')" class="hoverthing" points="303,272.55 303,292.16 316.5,305 330,292.16 330,272.55 
+		<polygon id="det-rr" onclick="navTo('rr')" class="hoverthing" points="303,272.55 303,292.16 316.5,305 330,292.16 330,272.55 
 			330,252.93 316.5,240.09 303,252.93 		"/>
 	</a>
 	<a xlink:href="#kk" >
-		<polygon id="z-d_11_" onclick="navTo('kk')" class="hoverthing" points="439,319.55 439,339.16 452.5,352 466,339.16 466,319.55 
+		<polygon id="det-kk" onclick="navTo('kk')" class="hoverthing" points="439,319.55 439,339.16 452.5,352 466,339.16 466,319.55 
 			466,299.93 452.5,287.09 439,299.93 		"/>
 	</a>
 	<a xlink:href="#tt" >
-		<polygon id="z-d_18_" onclick="navTo('tt')" class="hoverthing" points="664,185.55 664,205.16 677.5,218 691,205.16 691,185.55 
+		<polygon id="det-tt" onclick="navTo('tt')" class="hoverthing" points="664,185.55 664,205.16 677.5,218 691,205.16 691,185.55 
 			691,165.93 677.5,153.09 664,165.93 		"/>
 	</a>
 	<a xlink:href="#a" >
@@ -24969,171 +24969,171 @@
 			976,133.93 962.5,121.09 949,133.93 		"/>
 	</a>
 	<a xlink:href="#g" >
-		<polygon id="z-d_24_" onclick="navTo('g')" class="hoverthing" points="1542,272.55 1542,292.16 1555.5,305 1569,292.16 
+		<polygon id="det-g" onclick="navTo('g')" class="hoverthing" points="1542,272.55 1542,292.16 1555.5,305 1569,292.16 
 			1569,272.55 1569,252.93 1555.5,240.09 1542,252.93 		"/>
 	</a>
 	<a xlink:href="#oo" >
-		<polygon id="z-d_26_" onclick="navTo('oo')" class="hoverthing" points="1656,110.55 1656,130.16 1669.5,143 1683,130.16 
+		<polygon id="det-oo" onclick="navTo('oo')" class="hoverthing" points="1656,110.55 1656,130.16 1669.5,143 1683,130.16 
 			1683,110.55 1683,90.93 1669.5,78.09 1656,90.93 		"/>
 	</a>
 	<a xlink:href="#ss" >
-		<polygon id="z-d_27_" onclick="navTo('ss')" class="hoverthing" points="1911,266.55 1911,286.16 1924.5,299 1938,286.16 
+		<polygon id="det-ss" onclick="navTo('ss')" class="hoverthing" points="1911,266.55 1911,286.16 1924.5,299 1938,286.16 
 			1938,266.55 1938,246.93 1924.5,234.09 1911,246.93 		"/>
 	</a>
 	<a xlink:href="#x" >
-		<polygon id="z-d_28_" onclick="navTo('x')" class="hoverthing" points="1846,319.66 1846.17,339.28 1859.78,352 1873.17,339.04 
+		<polygon id="det-x" onclick="navTo('x')" class="hoverthing" points="1846,319.66 1846.17,339.28 1859.78,352 1873.17,339.04 
 			1873,319.43 1872.83,299.82 1859.22,287.09 1845.83,300.05 		"/>
 	</a>
 	<a xlink:href="#u" >
-		<polygon id="z-d_29_" onclick="navTo('u')" class="hoverthing" points="1877,337.66 1877.17,357.28 1890.78,370 1904.17,357.04 
+		<polygon id="det-u" onclick="navTo('u')" class="hoverthing" points="1877,337.66 1877.17,357.28 1890.78,370 1904.17,357.04 
 			1904,337.43 1903.83,317.82 1890.22,305.09 1876.83,318.05 		"/>
 	</a>
 	<a xlink:href="#z" >
-		<polygon id="z-d_34_" onclick="navTo('z')" class="hoverthing" points="1909,364.66 1909.17,384.28 1922.78,397 1936.17,384.04 
+		<polygon id="det-z" onclick="navTo('z')" class="hoverthing" points="1909,364.66 1909.17,384.28 1922.78,397 1936.17,384.04 
 			1936,364.43 1935.83,344.82 1922.22,332.09 1908.83,345.05 		"/>
 	</a>
 	<a xlink:href="#aa" >
-		<polygon id="z-d_30_" onclick="navTo('aa')" class="hoverthing" points="1942,383.83 1942.41,403.44 1956.18,415.99 
+		<polygon id="det-aa" onclick="navTo('aa')" class="hoverthing" points="1942,383.83 1942.41,403.44 1956.18,415.99 
 			1969.41,402.87 1969,383.26 1968.59,363.66 1954.82,351.1 1941.59,364.22 		"/>
 	</a>
 	<a xlink:href="#bb" >
-		<polygon id="z-d_31_" onclick="navTo('bb')" class="hoverthing" points="1892,443.66 1892.17,463.28 1905.78,476 1919.17,463.04 
+		<polygon id="det-bb" onclick="navTo('bb')" class="hoverthing" points="1892,443.66 1892.17,463.28 1905.78,476 1919.17,463.04 
 			1919,443.43 1918.83,423.82 1905.22,411.09 1891.83,424.05 		"/>
 	</a>
 	<a xlink:href="#v" >
-		<polygon id="z-d_32_" onclick="navTo('v')" class="hoverthing" points="1892,589.66 1892.17,609.28 1905.78,622 1919.17,609.04 
+		<polygon id="det-v" onclick="navTo('v')" class="hoverthing" points="1892,589.66 1892.17,609.28 1905.78,622 1919.17,609.04 
 			1919,589.43 1918.83,569.82 1905.22,557.09 1891.83,570.05 		"/>
 	</a>
 	<a xlink:href="#w" >
-		<polygon id="z-d_33_" onclick="navTo('w')" class="hoverthing" points="1906,900.66 1906.17,920.28 1919.78,933 1933.17,920.04 
+		<polygon id="det-w" onclick="navTo('w')" class="hoverthing" points="1906,900.66 1906.17,920.28 1919.78,933 1933.17,920.04 
 			1933,900.43 1932.83,880.82 1919.22,868.09 1905.83,881.05 		"/>
 	</a>
 	<a xlink:href="#j" >
-		<polygon id="z-d_25_" onclick="navTo('j')" class="hoverthing" points="1476,359.55 1476,379.16 1489.5,392 1503,379.16 
+		<polygon id="det-j" onclick="navTo('j')" class="hoverthing" points="1476,359.55 1476,379.16 1489.5,392 1503,379.16 
 			1503,359.55 1503,339.93 1489.5,327.09 1476,339.93 		"/>
 	</a>
 	<a xlink:href="#ll" >
-		<polygon id="z-d_12_" onclick="navTo('ll')" class="hoverthing" points="486,366.55 486,386.16 499.5,399 513,386.16 513,366.55 
+		<polygon id="det-ll" onclick="navTo('ll')" class="hoverthing" points="486,366.55 486,386.16 499.5,399 513,386.16 513,366.55 
 			513,346.93 499.5,334.09 486,346.93 		"/>
 	</a>
 	<a xlink:href="#jj" >
-		<polygon id="z-d_13_" onclick="navTo('jj')" class="hoverthing" points="431,416.55 431,436.16 444.5,449 458,436.16 458,416.55 
+		<polygon id="det-jj" onclick="navTo('jj')" class="hoverthing" points="431,416.55 431,436.16 444.5,449 458,436.16 458,416.55 
 			458,396.93 444.5,384.09 431,396.93 		"/>
 	</a>
 	<a xlink:href="#mm" >
-		<polygon id="z-d_14_" onclick="navTo('mm')" class="hoverthing" points="531,431.55 531,451.16 544.5,464 558,451.16 558,431.55 
+		<polygon id="det-mm" onclick="navTo('mm')" class="hoverthing" points="531,431.55 531,451.16 544.5,464 558,451.16 558,431.55 
 			558,411.93 544.5,399.09 531,411.93 		"/>
 	</a>
 	<a xlink:href="#hh" >
-		<polygon id="z-d_15_" onclick="navTo('hh')" class="hoverthing" points="486,466.55 486,486.16 499.5,499 513,486.16 513,466.55 
+		<polygon id="det-hh" onclick="navTo('hh')" class="hoverthing" points="486,466.55 486,486.16 499.5,499 513,486.16 513,466.55 
 			513,446.93 499.5,434.09 486,446.93 		"/>
 	</a>
 	<a xlink:href="#ii" >
-		<polygon id="z-d_16_" onclick="navTo('ii')" class="hoverthing" points="431,518.55 431,538.16 444.5,551 458,538.16 458,518.55 
+		<polygon id="det-ii" onclick="navTo('ii')" class="hoverthing" points="431,518.55 431,538.16 444.5,551 458,538.16 458,518.55 
 			458,498.93 444.5,486.09 431,498.93 		"/>
 	</a>
 	<a xlink:href="#uu" >
-		<polygon id="z-d_17_" onclick="navTo('uu')" class="hoverthing" points="499,1210.55 499,1230.16 512.5,1243 526,1230.16 
+		<polygon id="det-uu" onclick="navTo('uu')" class="hoverthing" points="499,1210.55 499,1230.16 512.5,1243 526,1230.16 
 			526,1210.55 526,1190.93 512.5,1178.09 499,1190.93 		"/>
 	</a>
 	<a xlink:href="#d" >
-		<polygon id="z-d_19_" onclick="navTo('d')" class="hoverthing" points="806,1515.55 806,1535.16 819.5,1548 833,1535.16 
+		<polygon id="det-d" onclick="navTo('d')" class="hoverthing" points="806,1515.55 806,1535.16 819.5,1548 833,1535.16 
 			833,1515.55 833,1495.93 819.5,1483.09 806,1495.93 		"/>
 	</a>
 	<a xlink:href="#b" >
-		<polygon id="z-d_20_" onclick="navTo('b')" class="hoverthing" points="806,1593.55 806,1613.16 819.5,1626 833,1613.16 
+		<polygon id="det-b" onclick="navTo('b')" class="hoverthing" points="806,1593.55 806,1613.16 819.5,1626 833,1613.16 
 			833,1593.55 833,1573.93 819.5,1561.09 806,1573.93 		"/>
 	</a>
 	<a xlink:href="#c" >
-		<polygon id="z-d_22_" onclick="navTo('c')" class="hoverthing" points="845,1777.55 845,1797.16 858.5,1810 872,1797.16 
+		<polygon id="det-c" onclick="navTo('c')" class="hoverthing" points="845,1777.55 845,1797.16 858.5,1810 872,1797.16 
 			872,1777.55 872,1757.93 858.5,1745.09 845,1757.93 		"/>
 	</a>
 	<a xlink:href="#e" >
-		<polygon id="z-d_21_" onclick="navTo('e')" class="hoverthing" points="845,1566.55 845,1586.16 858.5,1599 872,1586.16 
+		<polygon id="det-e" onclick="navTo('e')" class="hoverthing" points="845,1566.55 845,1586.16 858.5,1599 872,1586.16 
 			872,1566.55 872,1546.93 858.5,1534.09 845,1546.93 		"/>
 	</a>
 	<a xlink:href="pp" >
-		<polygon id="z-d_2_" onclick="navTo('pp')" class="hoverthing" points="364,384.55 364,404.16 377.5,417 391,404.16 391,384.55 
+		<polygon id="det-pp" onclick="navTo('pp')" class="hoverthing" points="364,384.55 364,404.16 377.5,417 391,404.16 391,384.55 
 			391,364.93 377.5,352.09 364,364.93 		"/>
 	</a>
 	<a xlink:href="#qq" >
-		<polygon id="z-d_3_" onclick="navTo('qq')" class="hoverthing" points="262,407.55 262,427.16 275.5,440 289,427.16 289,407.55 
+		<polygon id="det-qq" onclick="navTo('qq')" class="hoverthing" points="262,407.55 262,427.16 275.5,440 289,427.16 289,407.55 
 			289,387.93 275.5,375.09 262,387.93 		"/>
 	</a>
 	<a xlink:href="#cc" >
-		<polygon id="z-d_4_" onclick="navTo('cc')" class="hoverthing" points="327,441.55 327,461.16 340.5,474 354,461.16 354,441.55 
+		<polygon id="det-cc" onclick="navTo('cc')" class="hoverthing" points="327,441.55 327,461.16 340.5,474 354,461.16 354,441.55 
 			354,421.93 340.5,409.09 327,421.93 		"/>
 	</a>
 	<a xlink:href="#dd" >
-		<polygon id="z-d_5_" onclick="navTo('dd')" class="hoverthing" points="284,473.55 284,493.16 297.5,506 311,493.16 311,473.55 
+		<polygon id="det-dd" onclick="navTo('dd')" class="hoverthing" points="284,473.55 284,493.16 297.5,506 311,493.16 311,473.55 
 			311,453.93 297.5,441.09 284,453.93 		"/>
 	</a>
 	<a xlink:href="#ee" >
-		<polygon id="z-d_6_" onclick="navTo('ee')" class="hoverthing" points="358,505.55 358,525.16 371.5,538 385,525.16 385,505.55 
+		<polygon id="det-ee" onclick="navTo('ee')" class="hoverthing" points="358,505.55 358,525.16 371.5,538 385,525.16 385,505.55 
 			385,485.93 371.5,473.09 358,485.93 		"/>
 	</a>
 	<a xlink:href="#gg" >
-		<polygon id="z-d_7_" onclick="navTo('gg')" class="hoverthing" points="277,826.55 277,846.16 290.5,859 304,846.16 304,826.55 
+		<polygon id="det-gg" onclick="navTo('gg')" class="hoverthing" points="277,826.55 277,846.16 290.5,859 304,846.16 304,826.55 
 			304,806.93 290.5,794.09 277,806.93 		"/>
 	</a>
 	<a xlink:href="#ff" >
-		<polygon id="z-d_8_" onclick="navTo('ff')" class="hoverthing" points="314,997.55 314,1017.16 327.5,1030 341,1017.16 
+		<polygon id="det-ff" onclick="navTo('ff')" class="hoverthing" points="314,997.55 314,1017.16 327.5,1030 341,1017.16 
 			341,997.55 341,977.93 327.5,965.09 314,977.93 		"/>
 	</a>
 	<a xlink:href="#s" >
-		<polygon id="z-d_9_" onclick="navTo('s')" class="hoverthing" points="284,1508.55 284,1528.16 297.5,1541 311,1528.16 
+		<polygon id="det-s" onclick="navTo('s')" class="hoverthing" points="284,1508.55 284,1528.16 297.5,1541 311,1528.16 
 			311,1508.55 311,1488.93 297.5,1476.09 284,1488.93 		"/>
 	</a>
 	<a xlink:href="#t" >
-		<polygon id="z-d_10_" onclick="navTo('t')" class="hoverthing" points="287,1676.55 287,1696.16 300.5,1709 314,1696.16 
+		<polygon id="det-t" onclick="navTo('t')" class="hoverthing" points="287,1676.55 287,1696.16 300.5,1709 314,1696.16 
 			314,1676.55 314,1656.93 300.5,1644.09 287,1656.93 		"/>
 	</a>
 	<a xlink:href="#i" >
-		<polygon id="z-c" onclick="navTo('i')" class="hoverthing" points="1529,411.47 1529,431.1 1542.5,443.94 1556,431.1 1556,411.47 
-			1556,391.85 1542.5,379 1529,391.85 		"/>
+		<polygon id="det-i" onclick="navTo('i')" class="hoverthing" points="1529,411.47 1529,431.1 1542.5,443.94 1556,431.1 
+			1556,411.47 1556,391.85 1542.5,379 1529,391.85 		"/>
 	</a>
 	<a xlink:href="#m" >
-		<polygon id="z-c_1_" onclick="navTo('m')" class="hoverthing" points="1476,459.47 1476,479.1 1489.5,491.94 1503,479.1 
+		<polygon id="det-m" onclick="navTo('m')" class="hoverthing" points="1476,459.47 1476,479.1 1489.5,491.94 1503,479.1 
 			1503,459.47 1503,439.85 1489.5,427 1476,439.85 		"/>
 	</a>
 	<a xlink:href="#h" >
-		<polygon id="z-c_2_" onclick="navTo('h')" class="hoverthing" points="1542,535.47 1542,555.1 1555.5,567.94 1569,555.1 
+		<polygon id="det-h" onclick="navTo('h')" class="hoverthing" points="1542,535.47 1542,555.1 1555.5,567.94 1569,555.1 
 			1569,535.47 1569,515.85 1555.5,503 1542,515.85 		"/>
 	</a>
 	<a xlink:href="#k" >
-		<polygon id="z-c_3_" onclick="navTo('k')" class="hoverthing" points="1522,614.47 1522,634.1 1535.5,646.94 1549,634.1 
+		<polygon id="det-k" onclick="navTo('k')" class="hoverthing" points="1522,614.47 1522,634.1 1535.5,646.94 1549,634.1 
 			1549,614.47 1549,594.85 1535.5,582 1522,594.85 		"/>
 	</a>
 	<a xlink:href="#p" >
-		<polygon id="z-c_4_" onclick="navTo('p')" class="hoverthing" points="1535,826.47 1535,846.1 1548.5,858.94 1562,846.1 
+		<polygon id="det-p" onclick="navTo('p')" class="hoverthing" points="1535,826.47 1535,846.1 1548.5,858.94 1562,846.1 
 			1562,826.47 1562,806.85 1548.5,794 1535,806.85 		"/>
 	</a>
 	<a xlink:href="#o" >
-		<polygon id="z-c_5_" onclick="navTo('o')" class="hoverthing" points="1542,1435.47 1542,1455.1 1555.5,1467.94 1569,1455.1 
+		<polygon id="det-o" onclick="navTo('o')" class="hoverthing" points="1542,1435.47 1542,1455.1 1555.5,1467.94 1569,1455.1 
 			1569,1435.47 1569,1415.85 1555.5,1403 1542,1415.85 		"/>
 	</a>
 	<a xlink:href="#l" >
-		<polygon id="z-c_6_" onclick="navTo('l')" class="hoverthing" points="1535,1534.47 1535,1554.1 1548.5,1566.94 1562,1554.1 
+		<polygon id="det-l" onclick="navTo('l')" class="hoverthing" points="1535,1534.47 1535,1554.1 1548.5,1566.94 1562,1554.1 
 			1562,1534.47 1562,1514.85 1548.5,1502 1535,1514.85 		"/>
 	</a>
 	<a xlink:href="#nn" >
-		<polygon id="z-c_7_" onclick="navTo('nn')" class="hoverthing" points="1522,1611.47 1522,1631.1 1535.5,1643.94 1549,1631.1 
+		<polygon id="det-nn" onclick="navTo('nn')" class="hoverthing" points="1522,1611.47 1522,1631.1 1535.5,1643.94 1549,1631.1 
 			1549,1611.47 1549,1591.85 1535.5,1579 1522,1591.85 		"/>
 	</a>
 	<a xlink:href="#r" >
-		<polygon id="z-c_8_" onclick="navTo('r')" class="hoverthing" points="1542,1820.47 1542,1840.1 1555.5,1852.94 1569,1840.1 
+		<polygon id="det-r" onclick="navTo('r')" class="hoverthing" points="1542,1820.47 1542,1840.1 1555.5,1852.94 1569,1840.1 
 			1569,1820.47 1569,1800.85 1555.5,1788 1542,1800.85 		"/>
 	</a>
 	<a xlink:href="#n" >
-		<polygon id="z-c_9_" onclick="navTo('n')" class="hoverthing" points="1522,2326.47 1522,2346.1 1535.5,2358.94 1549,2346.1 
+		<polygon id="det-n" onclick="navTo('n')" class="hoverthing" points="1522,2326.47 1522,2346.1 1535.5,2358.94 1549,2346.1 
 			1549,2326.47 1549,2306.85 1535.5,2294 1522,2306.85 		"/>
 	</a>
 	<a xlink:href="#q" >
-		<polygon id="z-c_10_" onclick="navTo('q')" class="hoverthing" points="1522,2485.47 1522,2505.1 1535.5,2517.94 1549,2505.1 
+		<polygon id="det-q" onclick="navTo('q')" class="hoverthing" points="1522,2485.47 1522,2505.1 1535.5,2517.94 1549,2505.1 
 			1549,2485.47 1549,2465.85 1535.5,2453 1522,2465.85 		"/>
 	</a>
 	<a xlink:href="#f" >
-		<polygon id="z-c_11_" onclick="navTo('f')" class="hoverthing" points="1522,2710.47 1522,2730.1 1535.5,2742.94 1549,2730.1 
+		<polygon id="det-f" onclick="navTo('f')" class="hoverthing" points="1522,2710.47 1522,2730.1 1535.5,2742.94 1549,2730.1 
 			1549,2710.47 1549,2690.85 1535.5,2678 1522,2690.85 		"/>
 	</a>
 	<g>
