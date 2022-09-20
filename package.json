@@ -16,7 +16,8 @@
     "compress:zircons": "npx svgo 'Zircons.svg' -o 'Zircons_Compressed.svg'",
     "compress:strat_chart": "npx svgo 'Strat Chart.svg' -o 'Strat_Chart_Compressed.svg'",
     "compress:strat_panel_key": "npx svgo 'Key Map_strat panels.svg' -o 'Key_Map_strat_panels_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles",
-    "compress:utah_to_denver": "npx svgo 'Central Utah to Denver Section.svg' -o 'Utah_to_Denver_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles"
+    "compress:utah_to_denver": "npx svgo 'Central Utah to Denver Section.svg' -o 'Utah_to_Denver_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles",
+    "compress:roadway": "npx svgo 'Key Map_Roadway Sections.svg' -o 'Key Map_Roadway Sections_Compressed.svg' --pretty --enable=prefixIds --disable=convertStyleToAttrs --disable=inlineStyles"
   },
   "repository": {
     "type": "git",
