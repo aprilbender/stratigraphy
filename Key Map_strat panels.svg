@@ -18826,6 +18826,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgv/QLr6PfMUYVUlQAAAAASUVORK5CYII=" transform="mat
 	<a xlink:href="#first" >
 		<path id="panel-1" onclick="navTo('first')" class="flag_style" d="M628.52,545.78l1.32-0.14c5.57-0.59,10.57,3.45,11.16,9.03l0,0
 			c0.58,5.51-3.41,10.45-8.92,11.03l-17.21,1.82c-0.23,0.02-0.43-0.14-0.46-0.37l-2.03-19.24c-0.02-0.23,0.14-0.43,0.37-0.46
+			L628.52,545.78"/>
 	</a>
 	<a xlink:href="#fifth" >
 		<path id="flag-5" onclick="navTo('fifth')" class="flag_style" d="M459.1,286.64l1.29-0.28c5.48-1.2,10.89,2.27,12.09,7.74l0,0
